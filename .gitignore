@@ -1,0 +1,9 @@
+config/.token
+config/accounts.json
+config/.encryption_key
+
+data/cache/
+data/output_videos/
+data/logs/
+data/input_images/
+

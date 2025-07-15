@@ -1,0 +1,40 @@
+{
+  "17701058047": {
+    "access_token": "gAAAAABocg_re-8_UPDXUlC0GiXAKfxw-B7o3SmBS_1ENGJPbfBi2YNNmQeb70CcDrJ-r1myXad3LRzRl87WopBagW7arfR460auswtGuVM_wU2i9RqdCNOsypVfs999-Z3ejAYkE0QhqE8AngUNt7j4e-NjJ6J7jfEVnTG1FSkU_hIPtyTe_0t4QfA28Ofv-Tuj6GgiFOJvT61fI9DnB4OQYtYHD_TEuFsV74-Rh3PbrDBsg4AO4MatN231XxpA4OVN82ZEnoIeS0o9LDSEXhWriwfAZAUjwGxVgxf-Gpi1XtZzUTuPgOPRZVmxHBzsZD1CvqNfoXH4",
+    "refresh_token": "gAAAAABocg_rnaTIrVFLHV5NAhdsgCLf9HEFrk0Z4J10Xqdsgw49Q2QO-Allkoi7v7LjZaWFBUXceQuPdYdBMkVEXeAhC8EtGA==",
+    "user_info": {
+      "id": "2857485261099210",
+      "nickname": "vidu_csGjxxVKbL3T7Jrk",
+      "phone": "+8617701058047",
+      "email": "",
+      "avatar": "https://files.vidu.cn/user/default/vidu_default_avatar_2.png?Expires=1752382419&Signature=rNnHP6phukIXrWSdMkkEy3nKdR3YTFf1-aR5bwNxkOg0sgRrRBDIbtC3CAIP7ioRafzw1z5P6TtBUXA9SXv9iHCMyveX-rBRGGo4Pjx6J-Zto7d4~tI8koZTL7J5SyUK~xXAxciQMolP40ZY1zu4-oea9FiNR6EtnhHnZu48f~oR53aASdJtstyNgh0vLe0QMVi9YgiQaEPG6T9f66c4zPsv105y3S-EyFFdhvgxMbDxgXzPc~qSDR4UqKNp-JVR9ZnupkFZDGeGX3JTUjTmuH3gp-Yxz9Q99gyY0sTciOfLaQHZzsBc0bkSRWi1FhM83kix9Drj5FBAJxxjCI~yig__&Key-Pair-Id=K3DNVHKWMZJUTO",
+      "role": "",
+      "status": "active",
+      "gender": "unspecified",
+      "created_at": "2025-07-11T14:24:19.392696Z",
+      "last_login_at": null,
+      "tags": [
+        "T1"
+      ],
+      "subs_plan": "ultimate_v2",
+      "internal": {
+        "type": "normal",
+        "owner_id": "2857485261099210"
+      },
+      "region": "CN",
+      "biography": "",
+      "is_first_login": false,
+      "background": {
+        "type": "unspecified",
+        "creation_id": "0"
+      },
+      "auditing_info": null,
+      "accept_marketing": false
+    },
+    "phone": "gAAAAABocg_ryyelGykkdsCc0-Wdz-CKSpTaqKO5joanUBP3mRgEOwPqH9vy_0TlNNSlTBLqUfR3pUJw1GSumKfDYDbPxNbNdg==",
+    "login_time": 1752305643.619725,
+    "expire_time": "gAAAAABocg_r25MI7XsIN9hPTmUI_B0AijMVzfcE7OvuYM3_mwdLTLZkCS-9L3GbNwb_YuuBs-6AMvmBzLcm0-5kejAcCRRJRUTgnLlNo6NxvADo2PZkiE8=",
+    "created_at": 1752305643.6197498,
+    "expires_at": 1752392043.619753
+  }
+}

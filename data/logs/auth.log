@@ -1,0 +1,32 @@
+2025-07-14 11:05:21 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:05:21 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:05:33 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-14 11:05:33 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-14 11:05:51 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:05:51 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:06:05 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:06:05 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:09:15 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:09:15 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:14:00 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:14:00 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:20:38 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:20:38 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 13:46:33 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 13:46:33 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:55:04 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:55:04 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:57:01 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:57:01 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:57:12 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:57:12 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:59:23 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:59:23 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:19:13 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:19:13 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:33:35 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:33:35 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:36:34 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:36:34 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:47:56 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:47:56 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047

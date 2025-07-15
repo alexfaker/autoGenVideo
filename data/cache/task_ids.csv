@@ -1,0 +1,13 @@
+task_id,created_at,prompt,image_path,status,use_off_peak
+2861065174874013,2025-07-14T11:06:00.730090,让画面更有质感,./data/input_images/1521752302428_.pic.jpg,pending,True
+2861290478188994,2025-07-14T14:55:12.429944,清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png,pending,False
+2861290690282678,2025-07-14T14:55:25.543926,逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，捕捉她眼底的惺忪与放松。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (3).png,pending,False
+2861290894103015,2025-07-14T14:55:38.004149,冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂的眼睫，背景音是水流声。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (4).png,pending,False
+2861291108040871,2025-07-14T14:55:50.859260,俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细节与她的微表情。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (5).png,pending,False
+2861291346803874,2025-07-14T14:56:05.656398,中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是模糊的城市远景，带点生活气息。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (6).png,pending,False
+2861291555841989,2025-07-14T14:56:18.386036,暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻书的轻响。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (7).png,pending,False
+2861291784538392,2025-07-14T14:56:32.244407,厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到她沾了番茄酱的指尖。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (8).png,pending,False
+2861291997401429,2025-07-14T14:56:45.385952,低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头缓慢推进，营造宁静治愈感。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (9).png,pending,False
+2861328370158715,2025-07-14T15:33:45.010332,清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png,pending,False
+2861331349376647,2025-07-14T15:36:47.115365,清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png,pending,False
+2861342490508674,2025-07-14T15:48:06.849888,清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。,/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png,pending,False

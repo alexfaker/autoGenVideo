@@ -1,0 +1,145 @@
+2025-07-11 22:53:34 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 22:53:34 | INFO | src.auth.login_manager | 开始手机验证码登录流程（测试模式）
+2025-07-11 22:53:55 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 22:53:55 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 22:53:55 | INFO | src.auth.session_manager | 未找到会话 - 用户: 17701058047
+2025-07-11 22:53:59 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 22:53:59 | INFO | src.auth.login_manager | 开始手机验证码登录流程（测试模式）
+2025-07-11 22:54:06 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 22:54:06 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 22:59:27 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 22:59:27 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 22:59:28 | ERROR | src.auth.login_manager | value must not be in list [unspecified]
+2025-07-11 22:59:54 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 22:59:54 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 22:59:57 | ERROR | src.auth.login_manager | value must not be in list [unspecified]
+2025-07-11 23:00:30 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:00:30 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:00:31 | ERROR | src.auth.login_manager | value must not be in list [unspecified]
+2025-07-11 23:00:55 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:00:55 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:00:58 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:00:58 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:00:58 GMT', 'EO-LOG-UUID': '9324645688572949044', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:00:58 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"purpose"}}
+2025-07-11 23:00:58 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'purpose'}}
+2025-07-11 23:01:15 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:01:15 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:01:17 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:01:17 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:01:17 GMT', 'EO-LOG-UUID': '17796980194715990144', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:01:17 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"channel"}}
+2025-07-11 23:01:17 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'channel'}}
+2025-07-11 23:01:33 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:01:33 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:01:35 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:01:35 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'x-md-trace-id': '92ae32da4ee7f3ac1f5366fed37f9c67', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '166', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:01:35 GMT', 'EO-LOG-UUID': '10128714124323162634', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:01:35 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"invalid field: {{.fields}}", "metadata":{"fields":"channel,receiver", "trace_id":"92ae32da4ee7f3ac1f5366fed37f9c67"}}
+2025-07-11 23:01:35 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'invalid field: {{.fields}}', 'metadata': {'fields': 'channel,receiver', 'trace_id': '92ae32da4ee7f3ac1f5366fed37f9c67'}}
+2025-07-11 23:01:55 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:01:55 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:01:57 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:01:57 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:01:57 GMT', 'EO-LOG-UUID': '3284192718156025060', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:01:57 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"channel"}}
+2025-07-11 23:01:57 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'channel'}}
+2025-07-11 23:02:14 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:02:14 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:02:16 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:02:16 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:02:16 GMT', 'EO-LOG-UUID': '2422911073986223796', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:02:16 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"channel"}}
+2025-07-11 23:02:16 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'channel'}}
+2025-07-11 23:02:32 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:02:32 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:02:33 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:02:33 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:02:33 GMT', 'EO-LOG-UUID': '7522550896166254881', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:02:33 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"channel"}}
+2025-07-11 23:02:33 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'channel'}}
+2025-07-11 23:04:06 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:04:06 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:04:08 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:04:08 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '123', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:04:08 GMT', 'EO-LOG-UUID': '10471960070788463629', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:04:08 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"value must not be in list [unspecified]", "metadata":{"fields":"channel"}}
+2025-07-11 23:04:08 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'value must not be in list [unspecified]', 'metadata': {'fields': 'channel'}}
+2025-07-11 23:08:35 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:08:35 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:08:37 | ERROR | src.auth.login_manager | Response status: 400
+2025-07-11 23:08:37 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'x-md-trace-id': '029321d0c5b55316f9d7004616cf7f46', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '166', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:08:37 GMT', 'EO-LOG-UUID': '7859760498552032109', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:08:37 | ERROR | src.auth.login_manager | Response text: {"code":400, "reason":"FieldInvalid", "message":"invalid field: {{.fields}}", "metadata":{"fields":"channel,receiver", "trace_id":"029321d0c5b55316f9d7004616cf7f46"}}
+2025-07-11 23:08:37 | ERROR | src.auth.login_manager | Error data: {'code': 400, 'reason': 'FieldInvalid', 'message': 'invalid field: {{.fields}}', 'metadata': {'fields': 'channel,receiver', 'trace_id': '029321d0c5b55316f9d7004616cf7f46'}}
+2025-07-11 23:09:31 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:09:31 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:09:43 | ERROR | src.auth.login_manager | value must not be in list [unspecified]
+2025-07-11 23:10:26 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:10:26 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:10:57 | ERROR | src.auth.login_manager | Response status: 429
+2025-07-11 23:10:57 | ERROR | src.auth.login_manager | Response headers: {'content-type': 'application/json', 'x-md-trace-id': '8f06e0952a6b3d41be5fd52757cee1a6', 'access-control-allow-origin': 'https://www.vidu.cn', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'x-md-trace-id', 'Server': 'TencentEdgeOne', 'Content-Length': '131', 'Connection': 'keep-alive', 'Date': 'Fri, 11 Jul 2025 15:10:27 GMT', 'EO-LOG-UUID': '1849202937925254601', 'EO-Cache-Status': 'MISS'}
+2025-07-11 23:10:57 | ERROR | src.auth.login_manager | Response text: {"code":429, "reason":"TooManyRequests", "message":"too many requests", "metadata":{"trace_id":"8f06e0952a6b3d41be5fd52757cee1a6"}}
+2025-07-11 23:10:57 | ERROR | src.auth.login_manager | Error data: {'code': 429, 'reason': 'TooManyRequests', 'message': 'too many requests', 'metadata': {'trace_id': '8f06e0952a6b3d41be5fd52757cee1a6'}}
+2025-07-11 23:12:59 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:12:59 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:13:14 | WARNING | src.auth.login_manager | 获取用户信息失败，状态码: 401
+2025-07-11 23:13:14 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:13:14 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:13:14 | INFO | src.auth.session_manager | 未找到会话 - 用户: 17701058047
+2025-07-11 23:13:17 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:13:17 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:15:37 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:15:37 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:15:52 | WARNING | src.auth.login_manager | 获取用户信息失败，状态码: 401
+2025-07-11 23:15:52 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:15:52 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:15:52 | INFO | src.auth.session_manager | 未找到会话 - 用户: 17701058047
+2025-07-11 23:20:27 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-11 23:20:27 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-11 23:21:36 | INFO | src.auth.login_manager | 登录API调用成功
+2025-07-11 23:21:36 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:21:36 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-11 23:21:36 | INFO | src.auth.session_manager | 未找到会话 - 用户: 17701058047
+2025-07-12 14:54:21 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 14:54:21 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-12 14:54:37 | INFO | src.auth.login_manager | 登录API调用成功
+2025-07-12 14:54:37 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-12 14:54:37 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-12 15:08:24 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 15:08:24 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-12 15:08:40 | INFO | src.auth.login_manager | 登录API调用成功
+2025-07-12 15:08:40 | ERROR | src.auth.session_manager | 保存会话失败 - 用户: 17701058047, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-12 15:08:40 | ERROR | src.auth.login_manager | 保存会话失败: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-12 15:16:39 | ERROR | auth.session_manager | 保存会话失败 - 用户: test_user, 错误: 'AuthConfig' object has no attribute 'session_timeout'
+2025-07-12 15:17:29 | INFO | auth.session_manager | 会话已保存 - 用户: test_user
+2025-07-12 15:17:29 | INFO | auth.session_manager | 会话加载成功 - 用户: test_user
+2025-07-12 15:17:29 | INFO | auth.session_manager | 会话已清除 - 用户: test_user
+2025-07-12 15:21:11 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 15:21:11 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-12 15:21:24 | ERROR | src.auth.login_manager | invalid authcode
+2025-07-12 15:31:15 | INFO | auth.token_manager | JWT token已保存到文件 - 手机号: 17701058047
+2025-07-12 15:31:15 | INFO | auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:31:15 | INFO | auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:31:15 | INFO | auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:31:15 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:31:18 | INFO | auth.login_manager | Token验证失败，清理本地文件
+2025-07-12 15:31:18 | INFO | src.auth.token_manager | Token文件已清除
+2025-07-12 15:31:18 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:33:44 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:33:44 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 15:33:44 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-12 15:34:03 | INFO | src.auth.token_manager | JWT token已保存到文件 - 手机号: 17701058047
+2025-07-12 15:34:03 | INFO | src.auth.login_manager | 登录API调用成功
+2025-07-12 15:34:03 | INFO | src.auth.session_manager | 会话已保存 - 用户: 17701058047
+2025-07-12 15:34:03 | INFO | src.auth.login_manager | 会话和账号信息已保存 - 账号: 17701058047
+2025-07-12 15:41:12 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:41:12 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:41:13 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 15:41:13 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-12 15:47:21 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:47:21 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:49:02 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:49:02 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 15:50:18 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 15:50:18 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 16:04:10 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 16:04:10 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 16:05:26 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 16:05:26 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 16:07:35 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-12 16:07:35 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-12 16:07:50 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-12 16:07:50 | INFO | src.auth.login_manager | 开始手机验证码登录流程

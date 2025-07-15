@@ -1,0 +1,916 @@
+2025-07-14 11:05:21 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 11:05:21 | INFO | __main__ | 系统初始化成功
+2025-07-14 11:05:21 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 11:05:21 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:05:21 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:05:21 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:05:21 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:05:24 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:05:24 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:05:24 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:05:24 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:05:33 | INFO | __main__ | 开始登录 - 手机号: 17701058047
+2025-07-14 11:05:33 | INFO | src.auth.login_manager | 开始登录流程 - 手机号: 17701058047
+2025-07-14 11:05:33 | INFO | src.auth.login_manager | 开始手机验证码登录流程
+2025-07-14 11:05:33 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/iam/v1/users/send-auth-code
+2025-07-14 11:05:34 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:05:35 | ERROR | __main__ | 登录失败: 用户取消输入验证码
+2025-07-14 11:05:51 | INFO | main | 初始化autoGenVideo系统...
+2025-07-14 11:05:51 | INFO | main | 系统初始化成功
+2025-07-14 11:05:51 | INFO | main | 尝试自动加载token...
+2025-07-14 11:05:51 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:05:51 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:05:51 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:05:51 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:05:53 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:05:53 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:05:53 | INFO | main | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:05:53 | INFO | main | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:05:53 | INFO | main | 提交任务 - 图片: ./data/input_images/1521752302428_.pic.jpg, 提示词: 让画面更有质感
+2025-07-14 11:05:53 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: ./data/input_images/1521752302428_.pic.jpg, 提示词: 让画面更有质感
+2025-07-14 11:05:53 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752462353_1521752302428_.pic.jpg
+2025-07-14 11:05:53 | INFO | src.utils.file_manager | 开始上传图片: processed_1752462353_1521752302428_.pic.jpg, 尺寸: 720x1122
+2025-07-14 11:05:53 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 11:05:53 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 11:05:55 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:05:55 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861065111519968
+2025-07-14 11:05:55 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752462353_1521752302428_.pic.jpg
+2025-07-14 11:05:56 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 11:05:56 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861065111519968
+2025-07-14 11:05:56 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861065111519968/finish
+2025-07-14 11:05:57 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861065111519968
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861065111519968
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/030556-iakILGWIsezTheM0?Expires=1752465956&Signature=Q~vJcp7hWC5mLd0VuFtUdNOSxciiFDVekp7MmTRhchYkCwogiqBL0om8NNnbBwGoMPmI0G3H3Z2jpeQIFhDvC7ph86Bc7WIzSbGrGaqvEQg0P5QZGfuDsVrTUdzU3y~~9SuS7oZWlltQpSpqWWIYQjLCB-5dbsLmeh9bxNoVPdm~VwOZ5sNBOsIqnyXaaSEyHAK50LboiXB7muhcvHysTUehHlOj746X2kHr6H39XUISrnDjV6UpYHA66XjDhfZCNEtuGcgbKSW9spWBZnjWnlNdU4tufBN0St3dAiJ-3qnWirj5f8sTgBr1Pi-yOC7bfkajhTWE81Icbw5JSAeCqA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 🆔 上传ID: 2861065111519968
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861065111519968
+2025-07-14 11:05:57 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/030556-iakILGWIsezTheM0?Expires=1752465956&Signature=Q~vJcp7hWC5mLd0VuFtUdNOSxciiFDVekp7MmTRhchYkCwogiqBL0om8NNnbBwGoMPmI0G3H3Z2jpeQIFhDvC7ph86Bc7WIzSbGrGaqvEQg0P5QZGfuDsVrTUdzU3y~~9SuS7oZWlltQpSpqWWIYQjLCB-5dbsLmeh9bxNoVPdm~VwOZ5sNBOsIqnyXaaSEyHAK50LboiXB7muhcvHysTUehHlOj746X2kHr6H39XUISrnDjV6UpYHA66XjDhfZCNEtuGcgbKSW9spWBZnjWnlNdU4tufBN0St3dAiJ-3qnWirj5f8sTgBr1Pi-yOC7bfkajhTWE81Icbw5JSAeCqA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | 📁 本地路径: ./data/input_images/1521752302428_.pic.jpg
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 11:05:57 | WARNING | src.tasks.task_manager | 当前非错峰时段，任务将排队等待
+2025-07-14 11:05:57 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]让画面更有质感
+2025-07-14 11:05:57 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 11:06:00 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:06:00 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861065174874013
+2025-07-14 11:06:00 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861065174874013
+2025-07-14 11:06:00 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861065174874013
+2025-07-14 11:06:05 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 11:06:05 | INFO | __main__ | 系统初始化成功
+2025-07-14 11:06:05 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 11:06:05 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:06:05 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:06:05 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:06:05 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:06:08 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:06:08 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:06:08 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:06:08 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:09:15 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 11:09:15 | INFO | __main__ | 系统初始化成功
+2025-07-14 11:09:15 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 11:09:15 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:09:15 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:09:15 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:09:15 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:09:18 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:09:18 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:09:18 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:09:18 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 添加间隔任务成功: periodic_status_check - 定期检查活跃任务状态
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 添加定时任务成功: daily_task_check - 每日检查昨日任务并下载视频
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 添加间隔任务成功: off_peak_check - 检查错峰时段状态
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 添加定时任务成功: weekly_cleanup - 每周清理缓存和旧任务
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 默认调度任务设置完成
+2025-07-14 11:09:18 | INFO | src.tasks.scheduler | 任务调度器启动成功
+2025-07-14 11:09:32 | INFO | src.tasks.scheduler | 任务调度器已停止
+2025-07-14 11:14:00 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 11:14:00 | INFO | __main__ | 系统初始化成功
+2025-07-14 11:14:00 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 11:14:00 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:14:00 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:14:00 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:14:00 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:14:02 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:14:02 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:14:02 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:14:02 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 添加间隔任务成功: periodic_status_check - 定期检查活跃任务状态
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 添加定时任务成功: daily_task_check - 每日检查昨日任务并下载视频
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 添加间隔任务成功: off_peak_check - 检查错峰时段状态
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 添加定时任务成功: weekly_cleanup - 每周清理缓存和旧任务
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 默认调度任务设置完成
+2025-07-14 11:14:02 | INFO | src.tasks.scheduler | 任务调度器启动成功
+2025-07-14 11:20:37 | INFO | src.tasks.scheduler | 任务调度器已停止
+2025-07-14 11:20:38 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 11:20:38 | INFO | __main__ | 系统初始化成功
+2025-07-14 11:20:38 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 11:20:38 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 11:20:38 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 11:20:38 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:20:38 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 11:20:40 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:20:40 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 11:20:40 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 11:20:40 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 添加间隔任务成功: periodic_status_check - 定期检查活跃任务状态
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 添加定时任务成功: daily_task_check - 每日检查昨日任务并下载视频
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 添加间隔任务成功: off_peak_check - 检查错峰时段状态
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 添加定时任务成功: weekly_cleanup - 每周清理缓存和旧任务
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 默认调度任务设置完成
+2025-07-14 11:20:40 | INFO | src.tasks.scheduler | 任务调度器启动成功
+2025-07-14 11:49:11 | INFO | src.tasks.task_manager | 从文件读取到 1 个任务ID记录
+2025-07-14 11:49:11 | INFO | src.tasks.task_manager | 任务匹配完成 - 本地: 1, 远程: 2, 匹配: 1, 已完成: 1, 可下载: 1
+2025-07-14 11:49:34 | INFO | src.tasks.task_manager | 历史任务数据解析完成 - 总数: 2, 解析成功: 2, 已完成: 1, 可下载: 1
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 添加间隔任务成功: periodic_status_check - 定期检查活跃任务状态
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 添加定时任务成功: daily_task_check - 每日检查昨日任务并下载视频
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 添加间隔任务成功: off_peak_check - 检查错峰时段状态
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 添加间隔任务成功: batch_history_check - 批量检查历史任务并下载视频
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 添加定时任务成功: weekly_cleanup - 每周清理缓存和旧任务
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 默认调度任务设置完成
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 任务调度器启动成功
+2025-07-14 11:49:52 | INFO | src.tasks.scheduler | 任务调度器已停止
+2025-07-14 11:50:15 | INFO | src.tasks.status_checker | 开始检查 3 个活跃任务
+2025-07-14 11:50:34 | INFO | src.tasks.task_manager | 查询任务状态: 2858527308134771
+2025-07-14 11:50:34 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 11:50:36 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:50:36 | INFO | src.tasks.task_manager | 任务 2858527308134771 状态:  -> pending
+2025-07-14 11:50:36 | DEBUG | src.tasks.status_checker | 任务进行中: 2858527308134771, 状态: pending
+2025-07-14 11:50:47 | INFO | src.tasks.task_manager | 查询任务状态: 2858528533164202
+2025-07-14 11:50:47 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 11:50:48 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:50:48 | INFO | src.tasks.task_manager | 任务 2858528533164202 状态:  -> pending
+2025-07-14 11:50:48 | DEBUG | src.tasks.status_checker | 任务进行中: 2858528533164202, 状态: pending
+2025-07-14 11:51:03 | INFO | src.tasks.task_manager | 查询任务状态: 2861065174874013
+2025-07-14 11:51:03 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 11:51:04 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 11:51:04 | INFO | src.tasks.task_manager | 任务 2861065174874013 状态:  -> pending
+2025-07-14 11:51:04 | DEBUG | src.tasks.status_checker | 任务进行中: 2861065174874013, 状态: pending
+2025-07-14 11:51:04 | INFO | src.tasks.status_checker | 状态检查完成 - 检查: 3, 完成: 0, 失败: 0, 进行中: 3
+2025-07-14 12:20:40 | DEBUG | src.tasks.scheduler | 执行定期状态检查
+2025-07-14 12:20:40 | INFO | src.tasks.status_checker | 开始检查 3 个活跃任务
+2025-07-14 12:20:57 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2858527308134771
+2025-07-14 12:20:58 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 12:21:12 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2858528533164202
+2025-07-14 12:21:13 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 12:21:24 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2861065174874013
+2025-07-14 12:21:27 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 12:21:27 | INFO | src.tasks.status_checker | 状态检查完成 - 检查: 3, 完成: 0, 失败: 0, 进行中: 0
+2025-07-14 13:20:40 | DEBUG | src.tasks.scheduler | 执行定期状态检查
+2025-07-14 13:20:40 | INFO | src.tasks.status_checker | 开始检查 3 个活跃任务
+2025-07-14 13:20:59 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2858527308134771
+2025-07-14 13:21:03 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 13:21:15 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2858528533164202
+2025-07-14 13:21:17 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 13:21:34 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/2861065174874013
+2025-07-14 13:21:37 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 13:21:37 | INFO | src.tasks.status_checker | 状态检查完成 - 检查: 3, 完成: 0, 失败: 0, 进行中: 0
+2025-07-14 13:46:31 | INFO | src.tasks.scheduler | 任务调度器已停止
+2025-07-14 13:46:33 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 13:46:33 | INFO | __main__ | 系统初始化成功
+2025-07-14 13:46:33 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 13:46:33 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 13:46:33 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 13:46:33 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 13:46:33 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 13:46:36 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 13:46:36 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 13:46:36 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 13:46:36 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 添加间隔任务成功: periodic_status_check - 定期检查活跃任务状态
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 添加定时任务成功: daily_task_check - 每日检查昨日任务并下载视频
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 添加间隔任务成功: off_peak_check - 检查错峰时段状态
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 添加间隔任务成功: batch_history_check - 批量检查历史任务并下载视频
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 添加定时任务成功: weekly_cleanup - 每周清理缓存和旧任务
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 默认调度任务设置完成
+2025-07-14 13:46:36 | INFO | src.tasks.scheduler | 任务调度器启动成功
+2025-07-14 14:16:36 | INFO | src.tasks.scheduler | 执行定时批量历史任务检查
+2025-07-14 14:16:36 | INFO | src.tasks.status_checker | 开始执行批量历史任务检查
+2025-07-14 14:16:36 | INFO | src.tasks.task_manager | 开始批量获取历史任务，起始页: 0
+2025-07-14 14:16:36 | INFO | src.tasks.task_manager | 获取第 1 页历史任务
+2025-07-14 14:16:36 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/history/me?pager.page=0&pager.pagesz=20&scenes=&types=img2video&types=character2video&types=text2video&types=upscale&types=extend&types=headtailimg2video&types=controlnet&types=material2video
+2025-07-14 14:16:38 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:16:38 | INFO | src.tasks.task_manager | 第 1 页获取到 8 个任务
+2025-07-14 14:16:38 | INFO | src.tasks.task_manager | 已获取所有可用的历史任务
+2025-07-14 14:16:38 | INFO | src.tasks.task_manager | 批量历史任务获取完成，共获取 8 个任务
+2025-07-14 14:16:38 | INFO | src.tasks.task_manager | 从文件读取到 1 个任务ID记录
+2025-07-14 14:16:38 | INFO | src.tasks.task_manager | 任务匹配完成 - 本地: 1, 远程: 8, 匹配: 1, 已完成: 0, 可下载: 0
+2025-07-14 14:16:38 | INFO | src.tasks.status_checker | 没有发现新的可下载视频
+2025-07-14 14:16:38 | INFO | src.tasks.status_checker | 批量历史检查完成 - 获取历史任务: 8, 匹配任务: 1, 完成任务: 0, 成功下载: 0
+2025-07-14 14:16:38 | DEBUG | src.tasks.scheduler | 批量历史检查完成，没有新的视频需要下载
+2025-07-14 14:43:40 | INFO | src.tasks.scheduler | 任务调度器已停止
+2025-07-14 14:54:38 | INFO | src.tasks.task_manager | 扫描到 8 个图片文件
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   1. 制作女孩独居生活视频 (2).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   2. 制作女孩独居生活视频 (3).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   3. 制作女孩独居生活视频 (4).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   4. 制作女孩独居生活视频 (5).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   5. 制作女孩独居生活视频 (6).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   6. 制作女孩独居生活视频 (7).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   7. 制作女孩独居生活视频 (8).png
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   8. 制作女孩独居生活视频 (9).png
+2025-07-14 14:54:38 | INFO | src.tasks.task_manager | 从文件加载到 8 个提示词
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   1. 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   2. 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   3. 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   4. 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   5. 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   6. 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   7. 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着...
+2025-07-14 14:54:38 | DEBUG | src.tasks.task_manager |   8. 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿...
+2025-07-14 14:54:38 | INFO | src.tasks.task_manager | 输入验证通过 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 14:55:04 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 14:55:04 | INFO | __main__ | 系统初始化成功
+2025-07-14 14:55:04 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 14:55:04 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:55:04 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:55:04 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:55:04 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 14:55:06 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:06 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:55:06 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 14:55:06 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 开始批量创建视频任务 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 输入验证通过 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 扫描到 8 个图片文件
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   1. 制作女孩独居生活视频 (2).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   2. 制作女孩独居生活视频 (3).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   3. 制作女孩独居生活视频 (4).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   4. 制作女孩独居生活视频 (5).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   5. 制作女孩独居生活视频 (6).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   6. 制作女孩独居生活视频 (7).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   7. 制作女孩独居生活视频 (8).png
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   8. 制作女孩独居生活视频 (9).png
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 从文件加载到 8 个提示词
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   1. 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   2. 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   3. 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   4. 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   5. 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   6. 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   7. 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着...
+2025-07-14 14:55:06 | DEBUG | src.tasks.task_manager |   8. 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿...
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 开始批量创建 8 个视频任务
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 创建第 1/8 个任务
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的...
+2025-07-14 14:55:06 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png, 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 14:55:06 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476106_制作女孩独居生活视频 (2).png
+2025-07-14 14:55:06 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476106_制作女孩独居生活视频 (2).png, 尺寸: 864x1536
+2025-07-14 14:55:06 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:55:06 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:55:07 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:07 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861290419644633
+2025-07-14 14:55:07 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476106_制作女孩独居生活视频 (2).png
+2025-07-14 14:55:08 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:55:08 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861290419644633
+2025-07-14 14:55:08 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861290419644633/finish
+2025-07-14 14:55:09 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861290419644633
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861290419644633
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065507-LauhjdhnApk7syHJ?Expires=1752479707&Signature=jbzvRK2nstNciH0O6RtE0gpzUOJNsoAAm0gs6Ld1-Y9L3pESdolgzYKDGcRJ3PvG9dJNbXCChaTtmD-d5EWfPuRfLtscd1spxZtC15YYNPrhIbxCrRTuiqza-a-9I0n4cDg6lwnqyCFrKGPZ-9jgrjC0DGN5iQn~ynXR-Zrl5PQmSPQtMetnbBg2ljUPpTAFbVcjWEnWueSlIyduyKymCdhzse-bDGZZae9g9pHIEvPLL5hrSqe~zL808tdQKkhte~x99AB~gyi5FeOXET-S1hwLVAwkggTSy5tLiauqf4YETw8EGUymKogzh5KkivgfezjrND2OOhO52PMsYPCKKg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 🆔 上传ID: 2861290419644633
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861290419644633
+2025-07-14 14:55:09 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065507-LauhjdhnApk7syHJ?Expires=1752479707&Signature=jbzvRK2nstNciH0O6RtE0gpzUOJNsoAAm0gs6Ld1-Y9L3pESdolgzYKDGcRJ3PvG9dJNbXCChaTtmD-d5EWfPuRfLtscd1spxZtC15YYNPrhIbxCrRTuiqza-a-9I0n4cDg6lwnqyCFrKGPZ-9jgrjC0DGN5iQn~ynXR-Zrl5PQmSPQtMetnbBg2ljUPpTAFbVcjWEnWueSlIyduyKymCdhzse-bDGZZae9g9pHIEvPLL5hrSqe~zL808tdQKkhte~x99AB~gyi5FeOXET-S1hwLVAwkggTSy5tLiauqf4YETw8EGUymKogzh5KkivgfezjrND2OOhO52PMsYPCKKg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:09 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 14:55:09 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:55:12 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:12 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290478188994
+2025-07-14 14:55:12 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861290478188994
+2025-07-14 14:55:12 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290478188994
+2025-07-14 14:55:12 | INFO | src.tasks.task_manager | ✅ 第 1 个任务创建成功: 2861290478188994
+2025-07-14 14:55:12 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:55:17 | INFO | src.tasks.task_manager | 创建第 2/8 个任务
+2025-07-14 14:55:17 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (3).png
+2025-07-14 14:55:17 | INFO | src.tasks.task_manager | 提示词: 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，...
+2025-07-14 14:55:17 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (3).png, 提示词: 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，捕捉她眼底的惺忪与放松。
+2025-07-14 14:55:17 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476117_制作女孩独居生活视频 (3).png
+2025-07-14 14:55:17 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476117_制作女孩独居生活视频 (3).png, 尺寸: 864x1536
+2025-07-14 14:55:17 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:55:17 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:55:20 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:20 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861290626598465
+2025-07-14 14:55:20 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476117_制作女孩独居生活视频 (3).png
+2025-07-14 14:55:20 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:55:20 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861290626598465
+2025-07-14 14:55:20 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861290626598465/finish
+2025-07-14 14:55:23 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861290626598465
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861290626598465
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065520-slEPzaraqhOYpf1f?Expires=1752479720&Signature=rrYZVUeKBUk9ZMpwJz1GvKlZiz4VP5CPGWY0NWka0GJdBQKnlSOxgSsdoEvAxeUlIQFH9To8RsdmhbAtxUuK1RCioDFpIFf0SyOXJiB9M~3Y1maLUZWMCDrUdjDsg15pKasZsZS7TcoV36k5jqo5mbhTXUH5L3Zq1FRKa-tJuXdWDOg~250qyvJcfmTJ~tn81sebEmFSk3AYwd6-C1nSR5BuqUyQCDd5MIzJ~JR17U7LaSg9EOx02ogoHtCRSGAEDu9B6CafGva-bhRa-PjdImIrWHzPNOx2nPQj7uBUFSp6KnpFUc1PPcAo58lo1Wgs~KTZYTSvFGQg-oge4I-CZg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 🆔 上传ID: 2861290626598465
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861290626598465
+2025-07-14 14:55:23 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065520-slEPzaraqhOYpf1f?Expires=1752479720&Signature=rrYZVUeKBUk9ZMpwJz1GvKlZiz4VP5CPGWY0NWka0GJdBQKnlSOxgSsdoEvAxeUlIQFH9To8RsdmhbAtxUuK1RCioDFpIFf0SyOXJiB9M~3Y1maLUZWMCDrUdjDsg15pKasZsZS7TcoV36k5jqo5mbhTXUH5L3Zq1FRKa-tJuXdWDOg~250qyvJcfmTJ~tn81sebEmFSk3AYwd6-C1nSR5BuqUyQCDd5MIzJ~JR17U7LaSg9EOx02ogoHtCRSGAEDu9B6CafGva-bhRa-PjdImIrWHzPNOx2nPQj7uBUFSp6KnpFUc1PPcAo58lo1Wgs~KTZYTSvFGQg-oge4I-CZg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (3).png
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:23 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，捕捉她眼底的惺忪与放松。
+2025-07-14 14:55:23 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:55:25 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:25 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290690282678
+2025-07-14 14:55:25 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861290690282678
+2025-07-14 14:55:25 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290690282678
+2025-07-14 14:55:25 | INFO | src.tasks.task_manager | ✅ 第 2 个任务创建成功: 2861290690282678
+2025-07-14 14:55:25 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:55:30 | INFO | src.tasks.task_manager | 创建第 3/8 个任务
+2025-07-14 14:55:30 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (4).png
+2025-07-14 14:55:30 | INFO | src.tasks.task_manager | 提示词: 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂...
+2025-07-14 14:55:30 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (4).png, 提示词: 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂的眼睫，背景音是水流声。
+2025-07-14 14:55:30 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476130_制作女孩独居生活视频 (4).png
+2025-07-14 14:55:30 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476130_制作女孩独居生活视频 (4).png, 尺寸: 864x1536
+2025-07-14 14:55:30 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:55:30 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:55:32 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:32 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861290828683606
+2025-07-14 14:55:32 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476130_制作女孩独居生活视频 (4).png
+2025-07-14 14:55:33 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:55:33 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861290828683606
+2025-07-14 14:55:33 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861290828683606/finish
+2025-07-14 14:55:35 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861290828683606
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861290828683606
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065532-ufEWxHPwKyxfs0gE?Expires=1752479732&Signature=mINMFrZ5zGz12E6S0O4ZoFdpuN4KKa54VoV9DcFxWu4SebvLF3ZbSHKfxVmQEaz7n7~3eVKocFuKgifCl7QndOCc5lbuTralajtE~LG9jhQUqPLvuRbNsu9Js1d2n6vsx9R34r8IMj0arR5iHgf6zheX3ymtwLVyeoYSEAeWoLp~usP68ONT7H0ORheNU2sBabEaARBnIqpXNq4Iz6qSM9FQwCnpp17wB3ljIFzm8b7oCpcJYXs2Rrm6VpRE55E0KtmZaN4VyDh0nDFH7HUlk0B6HIpnuTgZ7~w9yGKcfzOppypy7Sh-ppTvOtqjhJdNVGO1~aPEnhO8ApyhcYRSUg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 🆔 上传ID: 2861290828683606
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861290828683606
+2025-07-14 14:55:35 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065532-ufEWxHPwKyxfs0gE?Expires=1752479732&Signature=mINMFrZ5zGz12E6S0O4ZoFdpuN4KKa54VoV9DcFxWu4SebvLF3ZbSHKfxVmQEaz7n7~3eVKocFuKgifCl7QndOCc5lbuTralajtE~LG9jhQUqPLvuRbNsu9Js1d2n6vsx9R34r8IMj0arR5iHgf6zheX3ymtwLVyeoYSEAeWoLp~usP68ONT7H0ORheNU2sBabEaARBnIqpXNq4Iz6qSM9FQwCnpp17wB3ljIFzm8b7oCpcJYXs2Rrm6VpRE55E0KtmZaN4VyDh0nDFH7HUlk0B6HIpnuTgZ7~w9yGKcfzOppypy7Sh-ppTvOtqjhJdNVGO1~aPEnhO8ApyhcYRSUg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (4).png
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:35 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂的眼睫，背景音是水流声。
+2025-07-14 14:55:35 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:55:38 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:38 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290894103015
+2025-07-14 14:55:38 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861290894103015
+2025-07-14 14:55:38 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861290894103015
+2025-07-14 14:55:38 | INFO | src.tasks.task_manager | ✅ 第 3 个任务创建成功: 2861290894103015
+2025-07-14 14:55:38 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:55:43 | INFO | src.tasks.task_manager | 创建第 4/8 个任务
+2025-07-14 14:55:43 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (5).png
+2025-07-14 14:55:43 | INFO | src.tasks.task_manager | 提示词: 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细...
+2025-07-14 14:55:43 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (5).png, 提示词: 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细节与她的微表情。
+2025-07-14 14:55:43 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476143_制作女孩独居生活视频 (5).png
+2025-07-14 14:55:43 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476143_制作女孩独居生活视频 (5).png, 尺寸: 864x1536
+2025-07-14 14:55:43 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:55:43 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:55:44 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:44 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861291023436030
+2025-07-14 14:55:44 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476143_制作女孩独居生活视频 (5).png
+2025-07-14 14:55:44 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:55:44 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861291023436030
+2025-07-14 14:55:44 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861291023436030/finish
+2025-07-14 14:55:47 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861291023436030
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861291023436030
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065544-6Q8VodYN9NHrebeP?Expires=1752479744&Signature=ZlvmIFXFAWhMB03whCJzZ4um4F293ApUpXAOa8lm-KgPh7XvuhpXs0sDqLLZr9p5nT7BZRdcn11rcVxqZr1-x7jlhwaF-Nb5a3COM71jRy0OBLagynQyaBuBm0VUdKAvPjqbzMZgFLOxaAF3umhnVeWoPmJ4pVsiP0hehFQJWa9HUfSTPDYO6a7C~Q4pKWs4wxnB1WOTtWAgO~uOnZqv0eRQdjgxFUwmsBipImDWMGv0KBSL8Uj5doMD19dwbKY8nMfdsiHv-WYzl8YFJ-qg~-3EQkr0j-In~coTrm45SE3t8axtBhnPL~pqW8VhjcPvqIvQNArkLiVZ8TXRhhumOg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 🆔 上传ID: 2861291023436030
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861291023436030
+2025-07-14 14:55:47 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065544-6Q8VodYN9NHrebeP?Expires=1752479744&Signature=ZlvmIFXFAWhMB03whCJzZ4um4F293ApUpXAOa8lm-KgPh7XvuhpXs0sDqLLZr9p5nT7BZRdcn11rcVxqZr1-x7jlhwaF-Nb5a3COM71jRy0OBLagynQyaBuBm0VUdKAvPjqbzMZgFLOxaAF3umhnVeWoPmJ4pVsiP0hehFQJWa9HUfSTPDYO6a7C~Q4pKWs4wxnB1WOTtWAgO~uOnZqv0eRQdjgxFUwmsBipImDWMGv0KBSL8Uj5doMD19dwbKY8nMfdsiHv-WYzl8YFJ-qg~-3EQkr0j-In~coTrm45SE3t8axtBhnPL~pqW8VhjcPvqIvQNArkLiVZ8TXRhhumOg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (5).png
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:55:47 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细节与她的微表情。
+2025-07-14 14:55:47 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:55:50 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:50 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291108040871
+2025-07-14 14:55:50 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861291108040871
+2025-07-14 14:55:50 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291108040871
+2025-07-14 14:55:50 | INFO | src.tasks.task_manager | ✅ 第 4 个任务创建成功: 2861291108040871
+2025-07-14 14:55:50 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:55:55 | INFO | src.tasks.task_manager | 创建第 5/8 个任务
+2025-07-14 14:55:55 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (6).png
+2025-07-14 14:55:55 | INFO | src.tasks.task_manager | 提示词: 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是...
+2025-07-14 14:55:55 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (6).png, 提示词: 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是模糊的城市远景，带点生活气息。
+2025-07-14 14:55:55 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476155_制作女孩独居生活视频 (6).png
+2025-07-14 14:55:55 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476155_制作女孩独居生活视频 (6).png, 尺寸: 864x1536
+2025-07-14 14:55:55 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:55:55 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:55:58 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:55:58 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861291249655554
+2025-07-14 14:55:58 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476155_制作女孩独居生活视频 (6).png
+2025-07-14 14:55:58 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:55:58 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861291249655554
+2025-07-14 14:55:58 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861291249655554/finish
+2025-07-14 14:56:01 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861291249655554
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861291249655554
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065558-oPnx1a4qAlGFMrS5?Expires=1752479758&Signature=tigrfXrj4l-cRcsNQsI4wYn361RmDJ68YddN6RPnSV0PG-3x9uNDAwhqNLAp5sXv-B~VZ4dqdAZDTp9Q45OctdEoMTAelXfgw1z4RWWvPqNKSOAKCLh2e5YJSNN03QcmRmeQPsMK~P8rS-3oMc8L4c~Kun-OyhUoXF6y8V1ul9ilXdBM74h2CCMr0rbPj-XJwQ1NVsf5dk4yk~oFzWs8~q4JI4NtFsV4GcNEhKwrxsBrXxaayK5BUeN87FFraTw4jQal4KwcI5RQ-4B5n9i9SzQ6JS1GVW5TwFefto9VddJrS8tv0tZaSYjO6MClNEVE8ZEBfUi0-Uk82NHjRPTTRw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 🆔 上传ID: 2861291249655554
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861291249655554
+2025-07-14 14:56:01 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065558-oPnx1a4qAlGFMrS5?Expires=1752479758&Signature=tigrfXrj4l-cRcsNQsI4wYn361RmDJ68YddN6RPnSV0PG-3x9uNDAwhqNLAp5sXv-B~VZ4dqdAZDTp9Q45OctdEoMTAelXfgw1z4RWWvPqNKSOAKCLh2e5YJSNN03QcmRmeQPsMK~P8rS-3oMc8L4c~Kun-OyhUoXF6y8V1ul9ilXdBM74h2CCMr0rbPj-XJwQ1NVsf5dk4yk~oFzWs8~q4JI4NtFsV4GcNEhKwrxsBrXxaayK5BUeN87FFraTw4jQal4KwcI5RQ-4B5n9i9SzQ6JS1GVW5TwFefto9VddJrS8tv0tZaSYjO6MClNEVE8ZEBfUi0-Uk82NHjRPTTRw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (6).png
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:01 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是模糊的城市远景，带点生活气息。
+2025-07-14 14:56:01 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:56:05 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:05 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291346803874
+2025-07-14 14:56:05 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861291346803874
+2025-07-14 14:56:05 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291346803874
+2025-07-14 14:56:05 | INFO | src.tasks.task_manager | ✅ 第 5 个任务创建成功: 2861291346803874
+2025-07-14 14:56:05 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:56:10 | INFO | src.tasks.task_manager | 创建第 6/8 个任务
+2025-07-14 14:56:10 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (7).png
+2025-07-14 14:56:10 | INFO | src.tasks.task_manager | 提示词: 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻...
+2025-07-14 14:56:10 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (7).png, 提示词: 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻书的轻响。
+2025-07-14 14:56:10 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476170_制作女孩独居生活视频 (7).png
+2025-07-14 14:56:10 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476170_制作女孩独居生活视频 (7).png, 尺寸: 864x1536
+2025-07-14 14:56:10 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:56:10 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:56:12 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:12 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861291474036024
+2025-07-14 14:56:12 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476170_制作女孩独居生活视频 (7).png
+2025-07-14 14:56:12 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:56:12 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861291474036024
+2025-07-14 14:56:12 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861291474036024/finish
+2025-07-14 14:56:15 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861291474036024
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861291474036024
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065612-NfZr4SSc2nQuJV94?Expires=1752479772&Signature=ee7hf-353n-rW1dsfaJPanDOSUn0E3W7JizlwQUTKUS4cbyz9fNVNSGK2Iz5psptJ4Rvo1NypMGxXo-scU78FJl0Eay5SwWXoPQ72XKJLhOw1qx~tqqma~Tk8Y8-ZlCcL8J3FDFwTunchoQPQWri9ifrZcbIu-PCrCHiaMYS~MWwYf2z2oiGepUFEzTvF-O0JyDYGnoD7OGVpuV8AfgwAb-oe6fX1Zkk8L0oVZ0Ph6pxzcV20LXnAfdrrEOkqvs-losqPPiP6qUD3GoUXUcQBeT-yEYnm~Z8zVLDwPkQ9YsN48erO~bzwnp31ET-DfywOCPveqYMQgXpDInYjK~GZw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 🆔 上传ID: 2861291474036024
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861291474036024
+2025-07-14 14:56:15 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065612-NfZr4SSc2nQuJV94?Expires=1752479772&Signature=ee7hf-353n-rW1dsfaJPanDOSUn0E3W7JizlwQUTKUS4cbyz9fNVNSGK2Iz5psptJ4Rvo1NypMGxXo-scU78FJl0Eay5SwWXoPQ72XKJLhOw1qx~tqqma~Tk8Y8-ZlCcL8J3FDFwTunchoQPQWri9ifrZcbIu-PCrCHiaMYS~MWwYf2z2oiGepUFEzTvF-O0JyDYGnoD7OGVpuV8AfgwAb-oe6fX1Zkk8L0oVZ0Ph6pxzcV20LXnAfdrrEOkqvs-losqPPiP6qUD3GoUXUcQBeT-yEYnm~Z8zVLDwPkQ9YsN48erO~bzwnp31ET-DfywOCPveqYMQgXpDInYjK~GZw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (7).png
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:15 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻书的轻响。
+2025-07-14 14:56:15 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:56:18 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:18 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291555841989
+2025-07-14 14:56:18 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861291555841989
+2025-07-14 14:56:18 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291555841989
+2025-07-14 14:56:18 | INFO | src.tasks.task_manager | ✅ 第 6 个任务创建成功: 2861291555841989
+2025-07-14 14:56:18 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:56:23 | INFO | src.tasks.task_manager | 创建第 7/8 个任务
+2025-07-14 14:56:23 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (8).png
+2025-07-14 14:56:23 | INFO | src.tasks.task_manager | 提示词: 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到...
+2025-07-14 14:56:23 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (8).png, 提示词: 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到她沾了番茄酱的指尖。
+2025-07-14 14:56:23 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476183_制作女孩独居生活视频 (8).png
+2025-07-14 14:56:23 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476183_制作女孩独居生活视频 (8).png, 尺寸: 864x1536
+2025-07-14 14:56:23 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:56:23 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:56:26 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:26 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861291706849568
+2025-07-14 14:56:26 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476183_制作女孩独居生活视频 (8).png
+2025-07-14 14:56:26 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:56:26 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861291706849568
+2025-07-14 14:56:26 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861291706849568/finish
+2025-07-14 14:56:28 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861291706849568
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861291706849568
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065626-J3U53Kh6IpZDgiGg?Expires=1752479786&Signature=DqniRUjYIX5wZKRaO6pSP-8aievIeohTgPZ7FBMuAGLvaedrBQ6l~YDwQKKZWPG-oKc7DxtyZ40Buish6OBtrnMiltAf9lIlima5B1VAHm9yvz7kyqkT-sZWfk5~DdrEXB1gUVPE8gryIE-0c8R8x9gWo5Ig29mHM~WSkt34wA5dNU81dkT0oLgs2xajOwgQJWwggHyEVN5~3J2PGo9so2ay8zdAHjyouH2WvuwGo49C7vVAjCkaQ~K-6jU1rTpAySCTdCMfAzkFBDVZ3evXz-9011QzsmBym27pKYqMjaPaJE4hW~virxfUV03a813iGy-bjwLl39OwDgZ88WHG3w__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 🆔 上传ID: 2861291706849568
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861291706849568
+2025-07-14 14:56:28 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065626-J3U53Kh6IpZDgiGg?Expires=1752479786&Signature=DqniRUjYIX5wZKRaO6pSP-8aievIeohTgPZ7FBMuAGLvaedrBQ6l~YDwQKKZWPG-oKc7DxtyZ40Buish6OBtrnMiltAf9lIlima5B1VAHm9yvz7kyqkT-sZWfk5~DdrEXB1gUVPE8gryIE-0c8R8x9gWo5Ig29mHM~WSkt34wA5dNU81dkT0oLgs2xajOwgQJWwggHyEVN5~3J2PGo9so2ay8zdAHjyouH2WvuwGo49C7vVAjCkaQ~K-6jU1rTpAySCTdCMfAzkFBDVZ3evXz-9011QzsmBym27pKYqMjaPaJE4hW~virxfUV03a813iGy-bjwLl39OwDgZ88WHG3w__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (8).png
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:28 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到她沾了番茄酱的指尖。
+2025-07-14 14:56:28 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:56:32 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:32 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291784538392
+2025-07-14 14:56:32 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861291784538392
+2025-07-14 14:56:32 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291784538392
+2025-07-14 14:56:32 | INFO | src.tasks.task_manager | ✅ 第 7 个任务创建成功: 2861291784538392
+2025-07-14 14:56:32 | DEBUG | src.tasks.task_manager | 等待 5.0 秒后创建下一个任务...
+2025-07-14 14:56:37 | INFO | src.tasks.task_manager | 创建第 8/8 个任务
+2025-07-14 14:56:37 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (9).png
+2025-07-14 14:56:37 | INFO | src.tasks.task_manager | 提示词: 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头...
+2025-07-14 14:56:37 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (9).png, 提示词: 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头缓慢推进，营造宁静治愈感。
+2025-07-14 14:56:37 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752476197_制作女孩独居生活视频 (9).png
+2025-07-14 14:56:37 | INFO | src.utils.file_manager | 开始上传图片: processed_1752476197_制作女孩独居生活视频 (9).png, 尺寸: 864x1536
+2025-07-14 14:56:37 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 14:56:37 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 14:56:40 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:40 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861291933940999
+2025-07-14 14:56:40 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752476197_制作女孩独居生活视频 (9).png
+2025-07-14 14:56:40 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 14:56:40 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861291933940999
+2025-07-14 14:56:40 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861291933940999/finish
+2025-07-14 14:56:42 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861291933940999
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861291933940999
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065640-82BjBxZmovmVHelI?Expires=1752479800&Signature=NhRRfVJi4lQgm7X~67HL2uaH8yeYDU7Ui7~7zqffJDUEhcRy4oXvZbkqTpXIkpqRYYiKsPeKvmhpUa~-hpxTuIbjR7Shp9SkL3-zS4tjTo9jHo4FWgcGfWJg-61oMVRLEz1qsIkNcZ5X6eAxHdsnKbQ3UiUKmplRMuhZRT4FexoFSc-8s-GEPadYD3HRxD55Td7dzc0V5XKcwrz4oIg1uBJL2e3wcu63kT-~YwdkEXGAVhxWxITo~XOGGCNBsjmtoKJd6-~XPiUx1jSb81U3CtZffhZVvOd-B3869Q3t8hlPDRltoD6-rmLyalQoSPAWK2ZHCUagUDDQoDUkqzp7mA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 🆔 上传ID: 2861291933940999
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861291933940999
+2025-07-14 14:56:42 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065640-82BjBxZmovmVHelI?Expires=1752479800&Signature=NhRRfVJi4lQgm7X~67HL2uaH8yeYDU7Ui7~7zqffJDUEhcRy4oXvZbkqTpXIkpqRYYiKsPeKvmhpUa~-hpxTuIbjR7Shp9SkL3-zS4tjTo9jHo4FWgcGfWJg-61oMVRLEz1qsIkNcZ5X6eAxHdsnKbQ3UiUKmplRMuhZRT4FexoFSc-8s-GEPadYD3HRxD55Td7dzc0V5XKcwrz4oIg1uBJL2e3wcu63kT-~YwdkEXGAVhxWxITo~XOGGCNBsjmtoKJd6-~XPiUx1jSb81U3CtZffhZVvOd-B3869Q3t8hlPDRltoD6-rmLyalQoSPAWK2ZHCUagUDDQoDUkqzp7mA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (9).png
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 14:56:42 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头缓慢推进，营造宁静治愈感。
+2025-07-14 14:56:42 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 14:56:45 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:56:45 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291997401429
+2025-07-14 14:56:45 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861291997401429
+2025-07-14 14:56:45 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861291997401429
+2025-07-14 14:56:45 | INFO | src.tasks.task_manager | ✅ 第 8 个任务创建成功: 2861291997401429
+2025-07-14 14:56:45 | INFO | src.tasks.task_manager | ✅ 批量任务创建完成 - 全部成功 (8/8)
+2025-07-14 14:57:01 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 14:57:01 | INFO | __main__ | 系统初始化成功
+2025-07-14 14:57:01 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 14:57:01 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:57:01 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:57:01 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:57:01 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 14:57:03 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:57:03 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:57:03 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 14:57:03 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 14:57:03 | INFO | src.tasks.task_manager | 从文件读取到 9 个任务ID记录
+2025-07-14 14:57:12 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 14:57:12 | INFO | __main__ | 系统初始化成功
+2025-07-14 14:57:12 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 14:57:12 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:57:12 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:57:12 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:57:12 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 14:57:15 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:57:15 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:57:15 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 14:57:15 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 14:57:15 | INFO | __main__ | 检查所有任务状态
+2025-07-14 14:57:15 | INFO | src.tasks.status_checker | 开始检查 11 个活跃任务
+2025-07-14 14:57:26 | INFO | src.tasks.task_manager | 查询任务状态: 2858527308134771
+2025-07-14 14:57:26 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:57:27 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:57:27 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:57:27 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2858527308134771
+2025-07-14 14:57:42 | INFO | src.tasks.task_manager | 查询任务状态: 2858528533164202
+2025-07-14 14:57:42 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:57:44 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:57:44 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:57:44 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2858528533164202
+2025-07-14 14:58:03 | INFO | src.tasks.task_manager | 查询任务状态: 2861065174874013
+2025-07-14 14:58:03 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:58:05 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:58:05 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:58:05 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861065174874013
+2025-07-14 14:58:25 | INFO | src.tasks.task_manager | 查询任务状态: 2861290478188994
+2025-07-14 14:58:25 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:58:28 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:58:28 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:58:28 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861290478188994
+2025-07-14 14:58:42 | INFO | src.tasks.task_manager | 查询任务状态: 2861290690282678
+2025-07-14 14:58:42 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:58:44 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:58:44 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:58:44 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861290690282678
+2025-07-14 14:59:02 | INFO | src.tasks.task_manager | 查询任务状态: 2861290894103015
+2025-07-14 14:59:02 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:59:04 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:59:04 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:59:04 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861290894103015
+2025-07-14 14:59:18 | INFO | src.tasks.task_manager | 查询任务状态: 2861291108040871
+2025-07-14 14:59:18 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:59:21 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:59:21 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:59:21 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861291108040871
+2025-07-14 14:59:23 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 14:59:23 | INFO | __main__ | 系统初始化成功
+2025-07-14 14:59:23 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 14:59:23 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 14:59:23 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 14:59:23 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:59:23 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 14:59:25 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:59:25 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 14:59:25 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 14:59:25 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 14:59:25 | INFO | src.tasks.status_checker | 开始执行批量历史任务检查
+2025-07-14 14:59:25 | INFO | src.tasks.task_manager | 开始批量获取历史任务，起始页: 0
+2025-07-14 14:59:25 | INFO | src.tasks.task_manager | 获取第 1 页历史任务
+2025-07-14 14:59:25 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/history/me?pager.page=0&pager.pagesz=20&scenes=&types=img2video&types=character2video&types=text2video&types=upscale&types=extend&types=headtailimg2video&types=controlnet&types=material2video
+2025-07-14 14:59:28 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 第 1 页获取到 16 个任务
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 已获取所有可用的历史任务
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 批量历史任务获取完成，共获取 16 个任务
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 从文件读取到 9 个任务ID记录
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 任务匹配完成 - 本地: 9, 远程: 16, 匹配: 9, 已完成: 6, 可下载: 6
+2025-07-14 14:59:28 | INFO | src.tasks.status_checker | 发现 6 个可下载的视频任务
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 开始从历史数据下载 6 个视频
+2025-07-14 14:59:28 | INFO | src.tasks.task_manager | 下载任务 2861291346803874 的视频: vidu-video-2861291369453352.mp4
+2025-07-14 14:59:28 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752562768&Signature=DpXf1YvvBk5dWZs4NxKoco5EU24qjyAkveNON9ccSpAe9i5x3ZZtxo61KDWqTwM-B-KsWq8IEu6-Vp9esLI4eBfg~LaVNRkRClVJOu6JyF8Gik0GvbZoNKWtTvdEnZj1Nu~74ktMjl6eT1g6KyEjvJ3OuI4RGrITkuTct4NdydfCg4OMtdk~LcyUnl3P8GX2qSVU3uyN5XhWJ7m25QXr8qoXU3eEzGRaRgjvj-fHJ8puLD3fsqW4rgtzescN3NzUMTb6DWc9k3lzpLDU~cGmD0mPM73v3Det081WC-AENVZMjomCpIepeS9a7dR5trulOr4Xt-hLh6i6VBSIMD3n-Q__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:59:28 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752562768&Signature=DpXf1YvvBk5dWZs4NxKoco5EU24qjyAkveNON9ccSpAe9i5x3ZZtxo61KDWqTwM-B-KsWq8IEu6-Vp9esLI4eBfg~LaVNRkRClVJOu6JyF8Gik0GvbZoNKWtTvdEnZj1Nu~74ktMjl6eT1g6KyEjvJ3OuI4RGrITkuTct4NdydfCg4OMtdk~LcyUnl3P8GX2qSVU3uyN5XhWJ7m25QXr8qoXU3eEzGRaRgjvj-fHJ8puLD3fsqW4rgtzescN3NzUMTb6DWc9k3lzpLDU~cGmD0mPM73v3Det081WC-AENVZMjomCpIepeS9a7dR5trulOr4Xt-hLh6i6VBSIMD3n-Q__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:59:35 | INFO | src.tasks.task_manager | 查询任务状态: 2861291346803874
+2025-07-14 14:59:35 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/state
+2025-07-14 14:59:36 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 14:59:36 | ERROR | src.tasks.task_manager | 状态查询异常: Expecting value: line 1 column 1 (char 0)
+2025-07-14 14:59:36 | ERROR | src.tasks.status_checker | 检查任务状态失败: 2861291346803874
+2025-07-14 14:59:41 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752562768&Signature=DpXf1YvvBk5dWZs4NxKoco5EU24qjyAkveNON9ccSpAe9i5x3ZZtxo61KDWqTwM-B-KsWq8IEu6-Vp9esLI4eBfg~LaVNRkRClVJOu6JyF8Gik0GvbZoNKWtTvdEnZj1Nu~74ktMjl6eT1g6KyEjvJ3OuI4RGrITkuTct4NdydfCg4OMtdk~LcyUnl3P8GX2qSVU3uyN5XhWJ7m25QXr8qoXU3eEzGRaRgjvj-fHJ8puLD3fsqW4rgtzescN3NzUMTb6DWc9k3lzpLDU~cGmD0mPM73v3Det081WC-AENVZMjomCpIepeS9a7dR5trulOr4Xt-hLh6i6VBSIMD3n-Q__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:41 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752562768&Signature=DpXf1YvvBk5dWZs4NxKoco5EU24qjyAkveNON9ccSpAe9i5x3ZZtxo61KDWqTwM-B-KsWq8IEu6-Vp9esLI4eBfg~LaVNRkRClVJOu6JyF8Gik0GvbZoNKWtTvdEnZj1Nu~74ktMjl6eT1g6KyEjvJ3OuI4RGrITkuTct4NdydfCg4OMtdk~LcyUnl3P8GX2qSVU3uyN5XhWJ7m25QXr8qoXU3eEzGRaRgjvj-fHJ8puLD3fsqW4rgtzescN3NzUMTb6DWc9k3lzpLDU~cGmD0mPM73v3Det081WC-AENVZMjomCpIepeS9a7dR5trulOr4Xt-hLh6i6VBSIMD3n-Q__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:41 | ERROR | src.tasks.task_manager | 任务 2861291346803874 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752562768&Signature=DpXf1YvvBk5dWZs4NxKoco5EU24qjyAkveNON9ccSpAe9i5x3ZZtxo61KDWqTwM-B-KsWq8IEu6-Vp9esLI4eBfg~LaVNRkRClVJOu6JyF8Gik0GvbZoNKWtTvdEnZj1Nu~74ktMjl6eT1g6KyEjvJ3OuI4RGrITkuTct4NdydfCg4OMtdk~LcyUnl3P8GX2qSVU3uyN5XhWJ7m25QXr8qoXU3eEzGRaRgjvj-fHJ8puLD3fsqW4rgtzescN3NzUMTb6DWc9k3lzpLDU~cGmD0mPM73v3Det081WC-AENVZMjomCpIepeS9a7dR5trulOr4Xt-hLh6i6VBSIMD3n-Q__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:41 | INFO | src.tasks.task_manager | 下载任务 2861290478188994 的视频: vidu-video-2861290496356802.mp4
+2025-07-14 14:59:41 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752562768&Signature=nuHPT8LeQp8-15L3SkICPzmc5u9ZSz6Kccohj4fBdENz4-wDu2Z554hvIXzGqlHf1cg-qxljUgl8Yu95vI8t381~cPKsMymm6q38Jj6UDYHPr19B67L3-JTlBs2rbfuPXxv0Hj8Zlg3yyjhIDOpKOHTO3Su8C8CuH2m24NMc7dnErHTP3vg03vQKVBCd5yc4IwRFziRXGPpFbH6B71GhXrv0rRMNII~idnE1864FQ6iVjadk~0VdG78Rk18m7zhSKy7Dy44Xp8iV7xfJWb8V7WH6Gndl5ro8L0x9yT8kUtwkWvd1rwdJTnKndyBRebSexFE0gaXh3ZkOqVLQsDeD4w__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:59:41 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752562768&Signature=nuHPT8LeQp8-15L3SkICPzmc5u9ZSz6Kccohj4fBdENz4-wDu2Z554hvIXzGqlHf1cg-qxljUgl8Yu95vI8t381~cPKsMymm6q38Jj6UDYHPr19B67L3-JTlBs2rbfuPXxv0Hj8Zlg3yyjhIDOpKOHTO3Su8C8CuH2m24NMc7dnErHTP3vg03vQKVBCd5yc4IwRFziRXGPpFbH6B71GhXrv0rRMNII~idnE1864FQ6iVjadk~0VdG78Rk18m7zhSKy7Dy44Xp8iV7xfJWb8V7WH6Gndl5ro8L0x9yT8kUtwkWvd1rwdJTnKndyBRebSexFE0gaXh3ZkOqVLQsDeD4w__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:59:54 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752562768&Signature=nuHPT8LeQp8-15L3SkICPzmc5u9ZSz6Kccohj4fBdENz4-wDu2Z554hvIXzGqlHf1cg-qxljUgl8Yu95vI8t381~cPKsMymm6q38Jj6UDYHPr19B67L3-JTlBs2rbfuPXxv0Hj8Zlg3yyjhIDOpKOHTO3Su8C8CuH2m24NMc7dnErHTP3vg03vQKVBCd5yc4IwRFziRXGPpFbH6B71GhXrv0rRMNII~idnE1864FQ6iVjadk~0VdG78Rk18m7zhSKy7Dy44Xp8iV7xfJWb8V7WH6Gndl5ro8L0x9yT8kUtwkWvd1rwdJTnKndyBRebSexFE0gaXh3ZkOqVLQsDeD4w__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:54 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752562768&Signature=nuHPT8LeQp8-15L3SkICPzmc5u9ZSz6Kccohj4fBdENz4-wDu2Z554hvIXzGqlHf1cg-qxljUgl8Yu95vI8t381~cPKsMymm6q38Jj6UDYHPr19B67L3-JTlBs2rbfuPXxv0Hj8Zlg3yyjhIDOpKOHTO3Su8C8CuH2m24NMc7dnErHTP3vg03vQKVBCd5yc4IwRFziRXGPpFbH6B71GhXrv0rRMNII~idnE1864FQ6iVjadk~0VdG78Rk18m7zhSKy7Dy44Xp8iV7xfJWb8V7WH6Gndl5ro8L0x9yT8kUtwkWvd1rwdJTnKndyBRebSexFE0gaXh3ZkOqVLQsDeD4w__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:54 | ERROR | src.tasks.task_manager | 任务 2861290478188994 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752562768&Signature=nuHPT8LeQp8-15L3SkICPzmc5u9ZSz6Kccohj4fBdENz4-wDu2Z554hvIXzGqlHf1cg-qxljUgl8Yu95vI8t381~cPKsMymm6q38Jj6UDYHPr19B67L3-JTlBs2rbfuPXxv0Hj8Zlg3yyjhIDOpKOHTO3Su8C8CuH2m24NMc7dnErHTP3vg03vQKVBCd5yc4IwRFziRXGPpFbH6B71GhXrv0rRMNII~idnE1864FQ6iVjadk~0VdG78Rk18m7zhSKy7Dy44Xp8iV7xfJWb8V7WH6Gndl5ro8L0x9yT8kUtwkWvd1rwdJTnKndyBRebSexFE0gaXh3ZkOqVLQsDeD4w__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 14:59:54 | INFO | src.tasks.task_manager | 下载任务 2861291108040871 的视频: vidu-video-2861291124766230.mp4
+2025-07-14 14:59:54 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752562768&Signature=lsBeITbVpWnTWQYc8vvjgv6kh9ZRzE8ELaEJT9PaaxFhDl4D4-WQ-HTjk2EBtq52TYwRb6z4ajxrljZGlgUZyJTLZ8abqtd2FqMLWpUkrWQQiSPAa0-TfI8s44I~3mYaP-RzE~qyY7Fpa8ZTD~5ENn2usf2orXiAlEPci0lDcEk3K0a7PERCr67CcVveMw11jLcXEXX-g~dMwBT43-8dO3RYduYOFZ3f2OVEYmPpfZ3YyoOeYMcxX3r4RPWukC1Jwywy2GhUu39l2OCP6MPOrl3Gg-GSWFlduEMfIfv9azw2RnDzoDth~xxy-vIMOIJObWpH-nTZ9RN9F1tcVOm-uQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 14:59:54 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752562768&Signature=lsBeITbVpWnTWQYc8vvjgv6kh9ZRzE8ELaEJT9PaaxFhDl4D4-WQ-HTjk2EBtq52TYwRb6z4ajxrljZGlgUZyJTLZ8abqtd2FqMLWpUkrWQQiSPAa0-TfI8s44I~3mYaP-RzE~qyY7Fpa8ZTD~5ENn2usf2orXiAlEPci0lDcEk3K0a7PERCr67CcVveMw11jLcXEXX-g~dMwBT43-8dO3RYduYOFZ3f2OVEYmPpfZ3YyoOeYMcxX3r4RPWukC1Jwywy2GhUu39l2OCP6MPOrl3Gg-GSWFlduEMfIfv9azw2RnDzoDth~xxy-vIMOIJObWpH-nTZ9RN9F1tcVOm-uQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:07 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752562768&Signature=lsBeITbVpWnTWQYc8vvjgv6kh9ZRzE8ELaEJT9PaaxFhDl4D4-WQ-HTjk2EBtq52TYwRb6z4ajxrljZGlgUZyJTLZ8abqtd2FqMLWpUkrWQQiSPAa0-TfI8s44I~3mYaP-RzE~qyY7Fpa8ZTD~5ENn2usf2orXiAlEPci0lDcEk3K0a7PERCr67CcVveMw11jLcXEXX-g~dMwBT43-8dO3RYduYOFZ3f2OVEYmPpfZ3YyoOeYMcxX3r4RPWukC1Jwywy2GhUu39l2OCP6MPOrl3Gg-GSWFlduEMfIfv9azw2RnDzoDth~xxy-vIMOIJObWpH-nTZ9RN9F1tcVOm-uQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:07 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752562768&Signature=lsBeITbVpWnTWQYc8vvjgv6kh9ZRzE8ELaEJT9PaaxFhDl4D4-WQ-HTjk2EBtq52TYwRb6z4ajxrljZGlgUZyJTLZ8abqtd2FqMLWpUkrWQQiSPAa0-TfI8s44I~3mYaP-RzE~qyY7Fpa8ZTD~5ENn2usf2orXiAlEPci0lDcEk3K0a7PERCr67CcVveMw11jLcXEXX-g~dMwBT43-8dO3RYduYOFZ3f2OVEYmPpfZ3YyoOeYMcxX3r4RPWukC1Jwywy2GhUu39l2OCP6MPOrl3Gg-GSWFlduEMfIfv9azw2RnDzoDth~xxy-vIMOIJObWpH-nTZ9RN9F1tcVOm-uQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:07 | ERROR | src.tasks.task_manager | 任务 2861291108040871 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752562768&Signature=lsBeITbVpWnTWQYc8vvjgv6kh9ZRzE8ELaEJT9PaaxFhDl4D4-WQ-HTjk2EBtq52TYwRb6z4ajxrljZGlgUZyJTLZ8abqtd2FqMLWpUkrWQQiSPAa0-TfI8s44I~3mYaP-RzE~qyY7Fpa8ZTD~5ENn2usf2orXiAlEPci0lDcEk3K0a7PERCr67CcVveMw11jLcXEXX-g~dMwBT43-8dO3RYduYOFZ3f2OVEYmPpfZ3YyoOeYMcxX3r4RPWukC1Jwywy2GhUu39l2OCP6MPOrl3Gg-GSWFlduEMfIfv9azw2RnDzoDth~xxy-vIMOIJObWpH-nTZ9RN9F1tcVOm-uQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:07 | INFO | src.tasks.task_manager | 下载任务 2861291555841989 的视频: vidu-video-2861292525625824.mp4
+2025-07-14 15:00:07 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752562768&Signature=pbuWMofpIwAnIf-xyNZ91cYyjnVqorJg9v2FANE1WFf4YN-xjHV3v5wmKnO9wGcWuF2cl9WY1wYlFT7IOIMwxtWLcdQA1ZJ~w98chm78XVmO6G97xRCoMtbdIVVI0eV8J5T1Xh1ecAKgxrZeqLKqe2rv4YGDQr0cQjDTqjyynXBe1J3XAK1p-EjHKpRSO6WC0ylWRh57jQZzUMNxFku4TzQ0Ws46LSwveR236DxuGe1H6BIAZa-oG5K~WaUFaia8m7bFM1tKBqT6STK4LK1HZ60NpmOTKbIJwzzD29WgK30XpXY3cdP0gqCPvjKroCrRpE1ASXmGfK4BEYizKwCDwQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:07 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752562768&Signature=pbuWMofpIwAnIf-xyNZ91cYyjnVqorJg9v2FANE1WFf4YN-xjHV3v5wmKnO9wGcWuF2cl9WY1wYlFT7IOIMwxtWLcdQA1ZJ~w98chm78XVmO6G97xRCoMtbdIVVI0eV8J5T1Xh1ecAKgxrZeqLKqe2rv4YGDQr0cQjDTqjyynXBe1J3XAK1p-EjHKpRSO6WC0ylWRh57jQZzUMNxFku4TzQ0Ws46LSwveR236DxuGe1H6BIAZa-oG5K~WaUFaia8m7bFM1tKBqT6STK4LK1HZ60NpmOTKbIJwzzD29WgK30XpXY3cdP0gqCPvjKroCrRpE1ASXmGfK4BEYizKwCDwQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:20 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752562768&Signature=pbuWMofpIwAnIf-xyNZ91cYyjnVqorJg9v2FANE1WFf4YN-xjHV3v5wmKnO9wGcWuF2cl9WY1wYlFT7IOIMwxtWLcdQA1ZJ~w98chm78XVmO6G97xRCoMtbdIVVI0eV8J5T1Xh1ecAKgxrZeqLKqe2rv4YGDQr0cQjDTqjyynXBe1J3XAK1p-EjHKpRSO6WC0ylWRh57jQZzUMNxFku4TzQ0Ws46LSwveR236DxuGe1H6BIAZa-oG5K~WaUFaia8m7bFM1tKBqT6STK4LK1HZ60NpmOTKbIJwzzD29WgK30XpXY3cdP0gqCPvjKroCrRpE1ASXmGfK4BEYizKwCDwQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:20 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752562768&Signature=pbuWMofpIwAnIf-xyNZ91cYyjnVqorJg9v2FANE1WFf4YN-xjHV3v5wmKnO9wGcWuF2cl9WY1wYlFT7IOIMwxtWLcdQA1ZJ~w98chm78XVmO6G97xRCoMtbdIVVI0eV8J5T1Xh1ecAKgxrZeqLKqe2rv4YGDQr0cQjDTqjyynXBe1J3XAK1p-EjHKpRSO6WC0ylWRh57jQZzUMNxFku4TzQ0Ws46LSwveR236DxuGe1H6BIAZa-oG5K~WaUFaia8m7bFM1tKBqT6STK4LK1HZ60NpmOTKbIJwzzD29WgK30XpXY3cdP0gqCPvjKroCrRpE1ASXmGfK4BEYizKwCDwQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:20 | ERROR | src.tasks.task_manager | 任务 2861291555841989 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752562768&Signature=pbuWMofpIwAnIf-xyNZ91cYyjnVqorJg9v2FANE1WFf4YN-xjHV3v5wmKnO9wGcWuF2cl9WY1wYlFT7IOIMwxtWLcdQA1ZJ~w98chm78XVmO6G97xRCoMtbdIVVI0eV8J5T1Xh1ecAKgxrZeqLKqe2rv4YGDQr0cQjDTqjyynXBe1J3XAK1p-EjHKpRSO6WC0ylWRh57jQZzUMNxFku4TzQ0Ws46LSwveR236DxuGe1H6BIAZa-oG5K~WaUFaia8m7bFM1tKBqT6STK4LK1HZ60NpmOTKbIJwzzD29WgK30XpXY3cdP0gqCPvjKroCrRpE1ASXmGfK4BEYizKwCDwQ__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:20 | INFO | src.tasks.task_manager | 下载任务 2861290894103015 的视频: vidu-video-2861290916033795.mp4
+2025-07-14 15:00:20 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752562768&Signature=ZGTWtxKioGFnIjcWGhOxwuZiV3Qa32K8KWkeHj1QZgiOZvs4n21ksNi9KbQN7llvGtIjZ8n0uXRJEkYd~~-y9i931jjidyhVMqHUOKqmzEW-UnMS~gu9~ihP5OKQcQJQTJWq9bMKEGerwWPTU1LjC--u50gQ2LUjls013~l7Mdjvj~dmJaCF0qWYDzx-colJkl~HxUo7mYQ0Xk5xUPdsmC~J6zeXltwSQGGj0G~xCkqIwXfwiLk-SagrndTe-uDa--MRHXVnyVlqxdqJCzX91Ay3-AERu1JMO42zzbRgaNxZ8BQf3GpxEvQU5VxmvDeXeMugES-hlnnIPi9fOe6Iag__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:20 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752562768&Signature=ZGTWtxKioGFnIjcWGhOxwuZiV3Qa32K8KWkeHj1QZgiOZvs4n21ksNi9KbQN7llvGtIjZ8n0uXRJEkYd~~-y9i931jjidyhVMqHUOKqmzEW-UnMS~gu9~ihP5OKQcQJQTJWq9bMKEGerwWPTU1LjC--u50gQ2LUjls013~l7Mdjvj~dmJaCF0qWYDzx-colJkl~HxUo7mYQ0Xk5xUPdsmC~J6zeXltwSQGGj0G~xCkqIwXfwiLk-SagrndTe-uDa--MRHXVnyVlqxdqJCzX91Ay3-AERu1JMO42zzbRgaNxZ8BQf3GpxEvQU5VxmvDeXeMugES-hlnnIPi9fOe6Iag__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:35 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752562768&Signature=ZGTWtxKioGFnIjcWGhOxwuZiV3Qa32K8KWkeHj1QZgiOZvs4n21ksNi9KbQN7llvGtIjZ8n0uXRJEkYd~~-y9i931jjidyhVMqHUOKqmzEW-UnMS~gu9~ihP5OKQcQJQTJWq9bMKEGerwWPTU1LjC--u50gQ2LUjls013~l7Mdjvj~dmJaCF0qWYDzx-colJkl~HxUo7mYQ0Xk5xUPdsmC~J6zeXltwSQGGj0G~xCkqIwXfwiLk-SagrndTe-uDa--MRHXVnyVlqxdqJCzX91Ay3-AERu1JMO42zzbRgaNxZ8BQf3GpxEvQU5VxmvDeXeMugES-hlnnIPi9fOe6Iag__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:35 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752562768&Signature=ZGTWtxKioGFnIjcWGhOxwuZiV3Qa32K8KWkeHj1QZgiOZvs4n21ksNi9KbQN7llvGtIjZ8n0uXRJEkYd~~-y9i931jjidyhVMqHUOKqmzEW-UnMS~gu9~ihP5OKQcQJQTJWq9bMKEGerwWPTU1LjC--u50gQ2LUjls013~l7Mdjvj~dmJaCF0qWYDzx-colJkl~HxUo7mYQ0Xk5xUPdsmC~J6zeXltwSQGGj0G~xCkqIwXfwiLk-SagrndTe-uDa--MRHXVnyVlqxdqJCzX91Ay3-AERu1JMO42zzbRgaNxZ8BQf3GpxEvQU5VxmvDeXeMugES-hlnnIPi9fOe6Iag__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:35 | ERROR | src.tasks.task_manager | 任务 2861290894103015 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752562768&Signature=ZGTWtxKioGFnIjcWGhOxwuZiV3Qa32K8KWkeHj1QZgiOZvs4n21ksNi9KbQN7llvGtIjZ8n0uXRJEkYd~~-y9i931jjidyhVMqHUOKqmzEW-UnMS~gu9~ihP5OKQcQJQTJWq9bMKEGerwWPTU1LjC--u50gQ2LUjls013~l7Mdjvj~dmJaCF0qWYDzx-colJkl~HxUo7mYQ0Xk5xUPdsmC~J6zeXltwSQGGj0G~xCkqIwXfwiLk-SagrndTe-uDa--MRHXVnyVlqxdqJCzX91Ay3-AERu1JMO42zzbRgaNxZ8BQf3GpxEvQU5VxmvDeXeMugES-hlnnIPi9fOe6Iag__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:35 | INFO | src.tasks.task_manager | 下载任务 2861290690282678 的视频: vidu-video-2861290711375806.mp4
+2025-07-14 15:00:35 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752562768&Signature=thggwqg4qEV3uWLVYnzatRwwkPfX0764xcFTphbY6ymBJnE3cWn9EW8-HG6qneIi~hKBbXGjATdtV4IyDEGxk-wB3P-CtbO6e1WX~Yw9yF7BAQz~JDeaWjZUGwLCq5P8BcJIUPwbs42RHZrtbIHNqfrqDBQnAsvgpvj~nMojcSw22EZajMGM8NuGUcPiP6K6dYJZ1~jC5QFkJ1HKxyHCfmldmACSM-rX1Ekpz5rUTBfdflMliqpMhgfymgwxbEO7usyTbUCGUZYzwjALJJgtFiS35SA7tGo~MGNrzYao74kmjKKsW3H7FNL6vQhnDP~pDGoi38RxoVTN49bfG5hohw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:35 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cnhttps://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752562768&Signature=thggwqg4qEV3uWLVYnzatRwwkPfX0764xcFTphbY6ymBJnE3cWn9EW8-HG6qneIi~hKBbXGjATdtV4IyDEGxk-wB3P-CtbO6e1WX~Yw9yF7BAQz~JDeaWjZUGwLCq5P8BcJIUPwbs42RHZrtbIHNqfrqDBQnAsvgpvj~nMojcSw22EZajMGM8NuGUcPiP6K6dYJZ1~jC5QFkJ1HKxyHCfmldmACSM-rX1Ekpz5rUTBfdflMliqpMhgfymgwxbEO7usyTbUCGUZYzwjALJJgtFiS35SA7tGo~MGNrzYao74kmjKKsW3H7FNL6vQhnDP~pDGoi38RxoVTN49bfG5hohw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:00:48 | ERROR | src.api.request_handler | 请求失败: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752562768&Signature=thggwqg4qEV3uWLVYnzatRwwkPfX0764xcFTphbY6ymBJnE3cWn9EW8-HG6qneIi~hKBbXGjATdtV4IyDEGxk-wB3P-CtbO6e1WX~Yw9yF7BAQz~JDeaWjZUGwLCq5P8BcJIUPwbs42RHZrtbIHNqfrqDBQnAsvgpvj~nMojcSw22EZajMGM8NuGUcPiP6K6dYJZ1~jC5QFkJ1HKxyHCfmldmACSM-rX1Ekpz5rUTBfdflMliqpMhgfymgwxbEO7usyTbUCGUZYzwjALJJgtFiS35SA7tGo~MGNrzYao74kmjKKsW3H7FNL6vQhnDP~pDGoi38RxoVTN49bfG5hohw__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:48 | ERROR | src.utils.file_manager | 视频下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752562768&Signature=thggwqg4qEV3uWLVYnzatRwwkPfX0764xcFTphbY6ymBJnE3cWn9EW8-HG6qneIi~hKBbXGjATdtV4IyDEGxk-wB3P-CtbO6e1WX~Yw9yF7BAQz~JDeaWjZUGwLCq5P8BcJIUPwbs42RHZrtbIHNqfrqDBQnAsvgpvj~nMojcSw22EZajMGM8NuGUcPiP6K6dYJZ1~jC5QFkJ1HKxyHCfmldmACSM-rX1Ekpz5rUTBfdflMliqpMhgfymgwxbEO7usyTbUCGUZYzwjALJJgtFiS35SA7tGo~MGNrzYao74kmjKKsW3H7FNL6vQhnDP~pDGoi38RxoVTN49bfG5hohw__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:48 | ERROR | src.tasks.task_manager | 任务 2861290690282678 视频下载失败: 下载异常: HTTPSConnectionPool(host='service.vidu.cnhttps', port=443): Max retries exceeded with url: /files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752562768&Signature=thggwqg4qEV3uWLVYnzatRwwkPfX0764xcFTphbY6ymBJnE3cWn9EW8-HG6qneIi~hKBbXGjATdtV4IyDEGxk-wB3P-CtbO6e1WX~Yw9yF7BAQz~JDeaWjZUGwLCq5P8BcJIUPwbs42RHZrtbIHNqfrqDBQnAsvgpvj~nMojcSw22EZajMGM8NuGUcPiP6K6dYJZ1~jC5QFkJ1HKxyHCfmldmACSM-rX1Ekpz5rUTBfdflMliqpMhgfymgwxbEO7usyTbUCGUZYzwjALJJgtFiS35SA7tGo~MGNrzYao74kmjKKsW3H7FNL6vQhnDP~pDGoi38RxoVTN49bfG5hohw__&Key-Pair-Id=K3DNVHKWMZJUTO (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-07-14 15:00:48 | INFO | src.tasks.task_manager | 历史视频下载完成 - 成功: 0, 失败: 6
+2025-07-14 15:00:48 | INFO | src.tasks.status_checker | 批量历史检查完成 - 获取历史任务: 16, 匹配任务: 9, 完成任务: 6, 成功下载: 0
+2025-07-14 15:19:13 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 15:19:13 | INFO | __main__ | 系统初始化成功
+2025-07-14 15:19:13 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 15:19:13 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:19:13 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:19:13 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:19:13 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 15:19:15 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:19:15 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:19:15 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 15:19:15 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 15:19:15 | INFO | src.tasks.status_checker | 开始执行批量历史任务检查
+2025-07-14 15:19:15 | INFO | src.tasks.task_manager | 开始批量获取历史任务，起始页: 0
+2025-07-14 15:19:15 | INFO | src.tasks.task_manager | 获取第 1 页历史任务
+2025-07-14 15:19:15 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/vidu/v1/tasks/history/me?pager.page=0&pager.pagesz=20&scenes=&types=img2video&types=character2video&types=text2video&types=upscale&types=extend&types=headtailimg2video&types=controlnet&types=material2video
+2025-07-14 15:19:17 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 第 1 页获取到 16 个任务
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 已获取所有可用的历史任务
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 批量历史任务获取完成，共获取 16 个任务
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 从文件读取到 9 个任务ID记录
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 任务匹配完成 - 本地: 9, 远程: 16, 匹配: 9, 已完成: 8, 可下载: 8
+2025-07-14 15:19:17 | INFO | src.tasks.status_checker | 发现 8 个可下载的视频任务
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 开始从历史数据下载 8 个视频
+2025-07-14 15:19:17 | INFO | src.tasks.task_manager | 下载任务 2861291555841989 的视频: vidu-video-2861292525625824.mp4
+2025-07-14 15:19:17 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752563957&Signature=AAccta1QrnTFxGF5dNNKenJIxX7TLNABmjWz~e2rvJch60MwDi8PxHuH~LlL-TNi9AP6-Hi8zuCj~6EOqnfmCuwTN~xjYOgx4qH7okRRhuyRwvt75o49wJuFYWh8d6~a1jeFCfrSHpERKv6SuKYLfNfjaysJWnEJ~Ozf-hE1nNffaD1cpwPCV7bRB3GUMNIMaKnsU2bbD438r8ChKrZnxEElLcEb6G~GikjI~bdBJa6CX579eWsQ~N9F~~kodTiPRyRPQB8G2R4ZBT2eJgOGdMDA8Xdz6KdqBj2zjrRS3ecdgbK0GJwyhs-CbBMf-L3TjbUhFj4WzNE1EN00NCJwcg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:18 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861292525625824.mp4
+2025-07-14 15:19:18 | INFO | src.tasks.task_manager | 任务 2861291555841989 视频下载成功: data/output_videos/vidu-video-2861292525625824.mp4
+2025-07-14 15:19:18 | INFO | src.tasks.task_manager | 下载任务 2861291784538392 的视频: vidu-video-2861292727396243.mp4
+2025-07-14 15:19:18 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291784538392/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292727396243.mp4&Expires=1752563957&Signature=RTgsx0WLAHNc7L3F9a3LJl~TymbYUwexbBaNo~xttEmDorgCRxEHiVbkV63S8upRcOlitNBbiX40xn2JJAGpPbMFupBG8qt2kfbEewu3u2SWUXO2TTthAwzZJo-2VAwpC5Rigb4-C3~I45PIN4AdmC9pyb6SYI2cf04IaGEXmib6Pr88NIS7LxfDnV2rbPBA-ufww4jsNh9CpuUIbqWxhLIV7ydGQJHD-gI6Pex9MzUugtgMa50EA~2qTSDyoraCTtrUYoVAkATetcPxCElPToTSq4Gf9kHoH3XCxFVGKPfMAMf03qVPCf3P8X9W~1mOZ5XIBNfgfdq85MM21WoNAg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:18 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861292727396243.mp4
+2025-07-14 15:19:18 | INFO | src.tasks.task_manager | 任务 2861291784538392 视频下载成功: data/output_videos/vidu-video-2861292727396243.mp4
+2025-07-14 15:19:18 | INFO | src.tasks.task_manager | 下载任务 2861291997401429 的视频: vidu-video-2861293008897486.mp4
+2025-07-14 15:19:18 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291997401429/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861293008897486.mp4&Expires=1752563957&Signature=asytTJOJvx-5ccIMDEHuaUEmGkezhOLLgdY9~BLdgzDgpCJEZzCXzi47pOdBrlogoFcQGa3QT0I7LOIdieKbltWRqTge51eeU9jXeIiqBvtxEl9r8AIImCqvlP90eT4MtPAj6mxHMYyTjikqZ8QZPTFiuTDArrEhqK5eFHiOD7VXs6M5GTVFUDqKzSXXTzlf-eSx1iEr4d84CltzClojyQlUw8YHOfze~Dtxg4NJIyNDRj-qslUwFxeCZ6zccIDFUOjy9T0383wxUPUTicpfDYK4tdYD7qDtxwqvD-LQ2nIcLVjNIU3O4kB7foF~yagoqfPjvdHgl6g2Lxj8aCexZg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:19 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861293008897486.mp4
+2025-07-14 15:19:19 | INFO | src.tasks.task_manager | 任务 2861291997401429 视频下载成功: data/output_videos/vidu-video-2861293008897486.mp4
+2025-07-14 15:19:19 | INFO | src.tasks.task_manager | 下载任务 2861290690282678 的视频: vidu-video-2861290711375806.mp4
+2025-07-14 15:19:19 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752563957&Signature=gsW6L5CSAERSBZhbMxjTQ-ogV2xqehxZ5UGfVKfZY94N-h-z1Je-18JztYW7u~v2LGO2R6yb5tmN3~RRqm3MRv9wnZ7Ya4wPSMc2gg5U-2E7ZGtUxNpC2YLGtW1P82B~ahOeJWG3NU9UxiNvn9sYtu63KaIQQiS7dvFOboGzwGCoP~~W01Hgli7kt-oHzc-QSNRth9a69OqDE4iSP2eb9~K0VwVgwOAmyMgjwsMBMhu1stz7JuaA4qzePvKrb4v8VLefassDGucMH~5Zw1lLuguEWATIl9D7bdzJv1JWwUJWwIdHISkrW3Za-CvOp~WUuZfig1PywjvVDm1lgelPEg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:19 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861290711375806.mp4
+2025-07-14 15:19:19 | INFO | src.tasks.task_manager | 任务 2861290690282678 视频下载成功: data/output_videos/vidu-video-2861290711375806.mp4
+2025-07-14 15:19:19 | INFO | src.tasks.task_manager | 下载任务 2861291346803874 的视频: vidu-video-2861291369453352.mp4
+2025-07-14 15:19:19 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752563957&Signature=KkUnITlE~vLNMlqIaY~fDdyGdX1QNpZGJpAjyuH~F1PLtpoZ~Dq7Ljx3~5D9CmpUncVUk9rDT5Rg8tc9cdud2cPEKc3mKSx4AQIJfnl3eciSgT73l4wwYI3yOow-S8P-sghK9bawuwISIWIwS6HqSCq~jnwQoI8y14rdZ8-TyKopNJyoGndzziwcrY3gZFZIb1mNq-mTzIkBiiociQpuQLG9xAg79Ud-SgcoexXarfosdzfIBWcozNawXRpNtaRk6jEwaTd16LGiUm3CpHNc0uFhf-5BUnCyH2cKz2am455rlGOIn0mHice-OiyzXbnxYhzzwK9B48Fve8xjwdVjDQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:20 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861291369453352.mp4
+2025-07-14 15:19:20 | INFO | src.tasks.task_manager | 任务 2861291346803874 视频下载成功: data/output_videos/vidu-video-2861291369453352.mp4
+2025-07-14 15:19:20 | INFO | src.tasks.task_manager | 下载任务 2861290894103015 的视频: vidu-video-2861290916033795.mp4
+2025-07-14 15:19:20 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752563957&Signature=EEX7CShtC8xdllfEeV6Mu0g7KXVsOvm5xpgeqGy5JYHsmAw8buyXL8AY2Hwu-3ZBGXdX4TLILokOjpFFj6Fgat2D0b7y4XGi6~-V58-PnmCH7PgSRdD18hnmy7yvbABXwDMqMgRi6ieJk6bHXEdlbRQ1X92DMahMcl0b0PevpMBFNDkQULkIQZ-q74VNZCH9qZZQ43HaBxTFCDPLsmg9fVx5Z-rDi622CtxovVW8ViSsPeWO1QdnupdgoH~Gx8smKdt~dMxPWqYeieS8ol6g1Gq8RtKY24g01zSjYjIdIlX4909VFeAVi13UtlD7hBKgBTvBEQYSYEGTXeDEhqmqOQ__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:20 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861290916033795.mp4
+2025-07-14 15:19:20 | INFO | src.tasks.task_manager | 任务 2861290894103015 视频下载成功: data/output_videos/vidu-video-2861290916033795.mp4
+2025-07-14 15:19:20 | INFO | src.tasks.task_manager | 下载任务 2861291108040871 的视频: vidu-video-2861291124766230.mp4
+2025-07-14 15:19:20 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752563957&Signature=CF84cv4g1xhN~3VOJPoABv47PGEvh8uFYtEVF33mwRkM3wjTc0sw6eh0HJFgyduOSGNeSw0sfvR2PbZ5w5vza~kNlXtDJaYsddDAgf0bFr6dXCebz4T0-8qCIIPllq8Wnz~yvzBjLZwgOHHX6P5wOlrwGKKGngAFrpq~xNffWCqGW3A5gNWhWx7PmqfTjGpF7WAC~TG3kEuedNxr1FUpEQkSxv-W2BVC4CHAkq9MIn67Q~46igTwdiU3rYqX5Sm4lkVxjcJg4AWcGDuksN0KqXqyXA42BgJnPSvgxAdIH-tT~~ON5jwiXW2XJh7Z5-oho8U92IVDs2Jaa7AzOaB3~w__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:21 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861291124766230.mp4
+2025-07-14 15:19:21 | INFO | src.tasks.task_manager | 任务 2861291108040871 视频下载成功: data/output_videos/vidu-video-2861291124766230.mp4
+2025-07-14 15:19:21 | INFO | src.tasks.task_manager | 下载任务 2861290478188994 的视频: vidu-video-2861290496356802.mp4
+2025-07-14 15:19:21 | INFO | src.utils.file_manager | 开始下载视频: https://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752563957&Signature=XcTcX-GDLleUd5Wez1BRzflkAZbYxrJ688dU1P7v8eC7I-EBkR8iWwpv1Bz0tqhdqE14vbnZ2pu8RpczqIR6g~Ex87pkacbnk8-C1Pi6l131cqKKteVPgprays2ca7xoYFnIuVOdCsM602ZEO358J8mXfOWnuxdCIoJHpO4YBb487h-zlA52oxYEo3izPllT-e-ahs-lplP45bEa7Cki8cxUfnRn1EmeWfOlpldOmC3MNjCT-j85Sm8zZo8-QrykdGLOWxi3gSra4mtY3IIOfrr33AWaOzpmOh4UQNcyoKhLl2To6VjOVlNXy3zpCsN84HpWmRRG20coQtTIVqM8sg__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:19:21 | INFO | src.utils.file_manager | 视频下载成功: data/output_videos/vidu-video-2861290496356802.mp4
+2025-07-14 15:19:21 | INFO | src.tasks.task_manager | 任务 2861290478188994 视频下载成功: data/output_videos/vidu-video-2861290496356802.mp4
+2025-07-14 15:19:21 | INFO | src.tasks.task_manager | 历史视频下载完成 - 成功: 8, 失败: 0
+2025-07-14 15:19:21 | INFO | src.tasks.status_checker | 批量历史检查完成 - 获取历史任务: 16, 匹配任务: 9, 完成任务: 8, 成功下载: 8
+2025-07-14 15:33:35 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 15:33:35 | INFO | __main__ | 系统初始化成功
+2025-07-14 15:33:35 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 15:33:35 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:33:35 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:33:35 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:33:35 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 15:33:37 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:33:37 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:33:37 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 15:33:37 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 开始批量创建视频任务 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 输入验证通过 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 扫描到 1 个图片文件
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   1. 制作女孩独居生活视频 (2).png
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 从文件加载到 8 个提示词
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   1. 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   2. 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   3. 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   4. 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   5. 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   6. 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   7. 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着...
+2025-07-14 15:33:37 | DEBUG | src.tasks.task_manager |   8. 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿...
+2025-07-14 15:33:37 | WARNING | src.tasks.task_manager | 图片数量(1)与提示词数量(8)不匹配
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 将处理前1组匹配的图片和提示词
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 开始批量创建 1 个视频任务
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 创建第 1/1 个任务
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的...
+2025-07-14 15:33:37 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png, 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:33:38 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752478417_制作女孩独居生活视频 (2).png
+2025-07-14 15:33:38 | INFO | src.utils.file_manager | 开始上传图片: processed_1752478417_制作女孩独居生活视频 (2).png, 尺寸: 864x1536
+2025-07-14 15:33:38 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 15:33:38 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 15:33:39 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:33:39 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861328298432134
+2025-07-14 15:33:39 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752478417_制作女孩独居生活视频 (2).png
+2025-07-14 15:33:40 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 15:33:40 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861328298432134
+2025-07-14 15:33:40 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861328298432134/finish
+2025-07-14 15:33:42 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861328298432134
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861328298432134
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073339-ZtmWrGqBzvXNpRPN?Expires=1752482019&Signature=AVROPVLylTGR1uV1jT9ZKmPuNfML5PJ7Y~uPzMLmiyJjNRJe6ocEu7D4vO69IaYOPdWPCeiTkmc4x0QyeB9rPy5LELGrkyZB5flPhQ6otFzI9l4B-6yzxiDIeNe7eJjkBjtWbLParrUTO35vJqPscnoewdPe4gqIewTE5uRjNTgcddS6TglTVOTI9furNwHH2F5DtQrSqEj-~EZNVzfZ7Q835pnTQymfJN02dxzpFThgmoGq9W0NwfZnfx-U~VOEWejwNCUUhEUBKeX8gvITSrMN85qpznUxzuJSvFPKyEPSR3RPIeb0PNmvpiNDpJheWDYXaotFpW66JNmTM~9pqA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 🆔 上传ID: 2861328298432134
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861328298432134
+2025-07-14 15:33:42 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073339-ZtmWrGqBzvXNpRPN?Expires=1752482019&Signature=AVROPVLylTGR1uV1jT9ZKmPuNfML5PJ7Y~uPzMLmiyJjNRJe6ocEu7D4vO69IaYOPdWPCeiTkmc4x0QyeB9rPy5LELGrkyZB5flPhQ6otFzI9l4B-6yzxiDIeNe7eJjkBjtWbLParrUTO35vJqPscnoewdPe4gqIewTE5uRjNTgcddS6TglTVOTI9furNwHH2F5DtQrSqEj-~EZNVzfZ7Q835pnTQymfJN02dxzpFThgmoGq9W0NwfZnfx-U~VOEWejwNCUUhEUBKeX8gvITSrMN85qpznUxzuJSvFPKyEPSR3RPIeb0PNmvpiNDpJheWDYXaotFpW66JNmTM~9pqA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:33:42 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:33:42 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 15:33:45 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:33:45 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861328370158715
+2025-07-14 15:33:45 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861328370158715
+2025-07-14 15:33:45 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861328370158715
+2025-07-14 15:33:45 | INFO | src.tasks.task_manager | ✅ 第 1 个任务创建成功: 2861328370158715
+2025-07-14 15:33:45 | INFO | src.tasks.task_manager | ✅ 批量任务创建完成 - 全部成功 (1/1)
+2025-07-14 15:36:34 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 15:36:34 | INFO | __main__ | 系统初始化成功
+2025-07-14 15:36:34 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 15:36:34 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:36:34 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:36:34 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:36:34 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 15:36:38 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:36:38 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:36:38 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 15:36:38 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 开始批量创建视频任务 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 输入验证通过 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 扫描到 1 个图片文件
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   1. 制作女孩独居生活视频 (2).png
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 从文件加载到 8 个提示词
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   1. 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   2. 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   3. 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   4. 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   5. 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   6. 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   7. 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着...
+2025-07-14 15:36:38 | DEBUG | src.tasks.task_manager |   8. 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿...
+2025-07-14 15:36:38 | WARNING | src.tasks.task_manager | 图片数量(1)与提示词数量(8)不匹配
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 将处理前1组匹配的图片和提示词
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 开始批量创建 1 个视频任务
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 创建第 1/1 个任务
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的...
+2025-07-14 15:36:38 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png, 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:36:38 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752478598_制作女孩独居生活视频 (2).png
+2025-07-14 15:36:38 | INFO | src.utils.file_manager | 开始上传图片: processed_1752478598_制作女孩独居生活视频 (2).png, 尺寸: 864x1536
+2025-07-14 15:36:38 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 15:36:38 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 15:36:40 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:36:40 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861331259417788
+2025-07-14 15:36:40 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752478598_制作女孩独居生活视频 (2).png
+2025-07-14 15:36:40 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 15:36:40 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861331259417788
+2025-07-14 15:36:40 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861331259417788/finish
+2025-07-14 15:36:43 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861331259417788
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861331259417788
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073640-dK3UoS6CJy90c770?Expires=1752482200&Signature=ayKHxyJuztWY-CcRJdK~tLgJyOG0ZkYe9cLtvexHcew2fgiEK12C-7wEAmlMR6T0OY-oAdSaOH79ZynfM1LGmdHRh5Um3rYznbGLSR4OT8ct-Hwt8Hy-v3SerhWO7pIPLXqhUsS5CsM8I4jJzfsVxEeVXOyvgxceN9ClqYwKGGbOn~A-BFDtGsfuIH2q-YlHEPBu91OR6PbgZSFGskuaAscxInYfjMqrjovwjyD07Y9o0MCuiXIM3-Sib215kqrxwq4LYGGjLCTueIn9vnfOVMyYe-PjCjd8Yznfl0KANGqPLZPKTp1SR-QdRWDb1f44cSW~zU4ag4A6QyPw8DCBnw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 🆔 上传ID: 2861331259417788
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861331259417788
+2025-07-14 15:36:43 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073640-dK3UoS6CJy90c770?Expires=1752482200&Signature=ayKHxyJuztWY-CcRJdK~tLgJyOG0ZkYe9cLtvexHcew2fgiEK12C-7wEAmlMR6T0OY-oAdSaOH79ZynfM1LGmdHRh5Um3rYznbGLSR4OT8ct-Hwt8Hy-v3SerhWO7pIPLXqhUsS5CsM8I4jJzfsVxEeVXOyvgxceN9ClqYwKGGbOn~A-BFDtGsfuIH2q-YlHEPBu91OR6PbgZSFGskuaAscxInYfjMqrjovwjyD07Y9o0MCuiXIM3-Sib215kqrxwq4LYGGjLCTueIn9vnfOVMyYe-PjCjd8Yznfl0KANGqPLZPKTp1SR-QdRWDb1f44cSW~zU4ag4A6QyPw8DCBnw__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:36:43 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:36:43 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 15:36:47 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:36:47 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861331349376647
+2025-07-14 15:36:47 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861331349376647
+2025-07-14 15:36:47 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861331349376647
+2025-07-14 15:36:47 | INFO | src.tasks.task_manager | ✅ 第 1 个任务创建成功: 2861331349376647
+2025-07-14 15:36:47 | INFO | src.tasks.task_manager | ✅ 批量任务创建完成 - 全部成功 (1/1)
+2025-07-14 15:47:56 | INFO | __main__ | 初始化autoGenVideo系统...
+2025-07-14 15:47:56 | INFO | __main__ | 系统初始化成功
+2025-07-14 15:47:56 | INFO | __main__ | 尝试自动加载token...
+2025-07-14 15:47:56 | INFO | src.auth.login_manager | 尝试使用本地token文件自动登录
+2025-07-14 15:47:56 | INFO | src.auth.token_manager | Token加载成功 - 手机号: 17701058047
+2025-07-14 15:47:56 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:47:56 | DEBUG | src.api.request_handler | 发起请求: GET https://service.vidu.cn/iam/v1/users/me
+2025-07-14 15:47:58 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:47:58 | DEBUG | src.api.request_handler | 已设置认证cookie
+2025-07-14 15:47:58 | INFO | __main__ | Token自动登录成功，JWT认证信息已同步
+2025-07-14 15:47:58 | INFO | __main__ | 自动登录用户: vidu_csGjxxVKbL3T7Jrk
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 开始批量创建视频任务 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 输入验证通过 - 图片目录: data/input_images, 提示词文件: data/input_images/prompt.txt
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 扫描到 1 个图片文件
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   1. 制作女孩独居生活视频 (2).png
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 从文件加载到 8 个提示词
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   1. 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   2. 逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   3. 冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   4. 俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   5. 中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   6. 暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   7. 厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着...
+2025-07-14 15:47:58 | DEBUG | src.tasks.task_manager |   8. 低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿...
+2025-07-14 15:47:58 | WARNING | src.tasks.task_manager | 图片数量(1)与提示词数量(8)不匹配
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 将处理前1组匹配的图片和提示词
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 开始批量创建 1 个视频任务
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 创建第 1/1 个任务
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的...
+2025-07-14 15:47:58 | INFO | src.tasks.task_manager | 创建视频生成任务 - 图片: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png, 提示词: 清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:47:58 | INFO | src.utils.file_manager | 图片处理完成: data/cache/processed_1752479278_制作女孩独居生活视频 (2).png
+2025-07-14 15:47:58 | INFO | src.utils.file_manager | 开始上传图片: processed_1752479278_制作女孩独居生活视频 (2).png, 尺寸: 864x1536
+2025-07-14 15:47:58 | INFO | src.utils.file_manager | 正在上传图片元数据...
+2025-07-14 15:47:58 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/tools/v1/files/uploads
+2025-07-14 15:48:01 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:48:01 | INFO | src.utils.file_manager | 元数据上传成功，获得上传ID: 2861342423588044
+2025-07-14 15:48:01 | INFO | src.utils.file_manager | 正在上传图片二进制数据: processed_1752479278_制作女孩独居生活视频 (2).png
+2025-07-14 15:48:02 | INFO | src.utils.file_manager | 图片二进制数据上传成功
+2025-07-14 15:48:02 | INFO | src.utils.file_manager | 正在完成上传确认，上传ID: 2861342423588044
+2025-07-14 15:48:02 | DEBUG | src.api.request_handler | 发起请求: PUT https://service.vidu.cn/tools/v1/files/uploads/2861342423588044/finish
+2025-07-14 15:48:03 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 图片上传完成，文件URI: ssupload:?id=2861342423588044
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 图片上传成功: ssupload:?id=2861342423588044
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 📷 测试URL | 图片上传成功
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/074801-FI2PMXgjA2B4WURX?Expires=1752482881&Signature=dey3stM7M1gw-bqUn2cLqbiWPtHb1TmLjrNfYV4tzTH3-1kfANunHArGQZGrytdurq4XzoJeAL3b4gEVtsxxPG7IdfBIQ4ujxTGDEpYLS0vxAOzwI3ZP5RDLOu7UIybcwxP70SDqsV8rMVnrgF-zzraRzl--3FdOK0ITs1tXlKDeJ3xBoTjU7b-PEm5GALId~aHp5ycplLOK65z~61l7uXMpJ-Q-U5TyFpxZSCwWGd9lUjNyuxmzpDw6Vv6ctgsdoGCt~Mjhuig5hkoEL834OGIX60flHhk2WSwuG8OVQvsv5IjjpkEBma5XxbjaJsOjJSvQ6hdBxZm0rs6QJvH9sA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 🆔 上传ID: 2861342423588044
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | 🔗 ssupload格式: ssupload:?id=2861342423588044
+2025-07-14 15:48:03 | INFO | src.utils.file_manager | ============================================================
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | ✅ 任务管理器 | 图片上传成功
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | 🔗 图片URL: https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/074801-FI2PMXgjA2B4WURX?Expires=1752482881&Signature=dey3stM7M1gw-bqUn2cLqbiWPtHb1TmLjrNfYV4tzTH3-1kfANunHArGQZGrytdurq4XzoJeAL3b4gEVtsxxPG7IdfBIQ4ujxTGDEpYLS0vxAOzwI3ZP5RDLOu7UIybcwxP70SDqsV8rMVnrgF-zzraRzl--3FdOK0ITs1tXlKDeJ3xBoTjU7b-PEm5GALId~aHp5ycplLOK65z~61l7uXMpJ-Q-U5TyFpxZSCwWGd9lUjNyuxmzpDw6Vv6ctgsdoGCt~Mjhuig5hkoEL834OGIX60flHhk2WSwuG8OVQvsv5IjjpkEBma5XxbjaJsOjJSvQ6hdBxZm0rs6QJvH9sA__&Key-Pair-Id=K3DNVHKWMZJUTO
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | 📁 本地路径: /Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | ============================================================
+2025-07-14 15:48:03 | INFO | src.tasks.task_manager | 提交任务到vidu平台: [@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。
+2025-07-14 15:48:03 | DEBUG | src.api.request_handler | 发起请求: POST https://service.vidu.cn/vidu/v1/tasks
+2025-07-14 15:48:06 | DEBUG | src.api.request_handler | 响应状态: 200
+2025-07-14 15:48:06 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861342490508674
+2025-07-14 15:48:06 | INFO | src.tasks.task_manager | 任务ID记录已保存到文件: 2861342490508674
+2025-07-14 15:48:06 | INFO | src.tasks.task_manager | 任务创建成功 - Task ID: 2861342490508674
+2025-07-14 15:48:06 | INFO | src.tasks.task_manager | ✅ 第 1 个任务创建成功: 2861342490508674
+2025-07-14 15:48:06 | INFO | src.tasks.task_manager | ✅ 批量任务创建完成 - 全部成功 (1/1)

@@ -1,0 +1,60 @@
+{
+    "vidu": {
+        "base_url": "https://service.vidu.cn",
+        "api_version": "v1",
+        "off_peak_hours": [0, 1, 2, 3, 4, 5, 6],
+        "max_retry_count": 3,
+        "request_timeout": 30,
+        "max_concurrent_tasks": 5
+    },
+    "behavior": {
+        "min_delay": 30,
+        "max_delay": 120,
+        "user_agents_file": "config/user_agents.txt",
+        "use_proxy": false,
+        "proxy_rotation": true,
+        "simulate_typing_speed": true
+    },
+    "storage": {
+        "input_dir": "data/input_images",
+        "output_dir": "data/output_videos",
+        "log_dir": "data/logs",
+        "cache_dir": "data/cache",
+        "max_log_size": "10MB",
+        "log_retention_days": 30
+    },
+    "scheduler": {
+        "check_interval": 3600,
+        "daily_check_time": "02:00",
+        "enable_auto_download": true,
+        "max_download_threads": 3,
+        "retry_failed_tasks": true
+    },
+    "authentication": {
+        "login_method": "manual_sms",
+        "session_persistence": true,
+        "max_login_attempts": 3,
+        "sms_timeout": 300,
+        "interactive_login": true,
+        "auto_save_session": true,
+        "enable_captcha_handling": true,
+        "session_timeout": 86400
+    },
+    "security": {
+        "encrypt_credentials": true,
+        "session_timeout": 86400,
+        "max_login_attempts": 3,
+        "enable_captcha_handling": true
+    },
+    "image_processing": {
+        "max_image_size": "10MB",
+        "supported_formats": ["jpg", "jpeg", "png", "webp"],
+        "auto_resize": true,
+        "max_resolution": "2048x2048"
+    },
+    "video_processing": {
+        "download_quality": "best",
+        "verify_download": true,
+        "auto_cleanup": false
+    }
+} 

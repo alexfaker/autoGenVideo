@@ -1,0 +1,1235 @@
+{
+  "2858527308134771": {
+    "task_id": "2858527308134771",
+    "image_path": "./data/input_images/1521752302428_.pic.jpg",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0712/080415-xgyi2fJKyeVNTDRv?Expires=1752311055&Signature=v0I4DeGoLa3vQFyhiE4bCTTuvEzrjo4ApCmdiiSeDHJUDTIASJ0KlN2~0CiVpxbMJZt549suy2xdG5WeaAExMa1xcicUVXxXxLV2sU~kgvQT-Wprdz8ranhP5WPP7s47snEtXi8Op0E-BL6pjVH7KFL-cHeqTWwn~gK5j-1QzVQiNF0iLMUuEgxRxPfndDISe6QFXwpQHbnOaOEggcQKPwtqdnySuMJepjbtpU3qzVMOjCUWawH-7MyY0LbIiAh4x-~CVYeYRQn3zxwkmHjHEfTSUbcQbavPGsEq-CWw~qdaHwBf5ZEzZxwkk0GQ54CD25sbFYAtgrPaQo4qAVUASQ__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "让人物动起来",
+    "use_off_peak": true,
+    "status": "pending",
+    "created_at": "2025-07-12T16:04:21.210846",
+    "updated_at": "2025-07-14T13:21:03.363895",
+    "api_response": {
+      "id": "2858527308134771",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]让人物动起来",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0712/08/2858527308134771/input/prompt-01.jpeg?Expires=1752393861&Signature=pDqCDVH3cO4QkxEFWl7-IfGMqIfzJ-WBKaBMSjnrGz56Wx7vFb0XoiviKL6HdDhhhNadggGfHpOOSWT~APGyafGvbaJ6dpe4CPOLixchTXM~XVHD66w28MGhF-JFynDCKul2GAT-BmRcZC9zXTmePlbnH0kHrHcCZg3rdATZ9QiFqjRqc1xsubqbilfSBKDwR-c4K~e~9sIpYJURenT3cU8jJpFx83-rDSnw8kqcj7WO6tGc7-i6uBK4AcDGkA8cXCONqmh8eNVWxQiclkYVs6GMVsyAElWzvrDbRPz44f4Snkmcn5sde9VOtcv8HHT8yVJrLU6Ctq5oncO4bg2VCQ__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 720,
+                "y": 1122
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0712/08/2858527308134771/input/src-img-0201.jpeg?Expires=1752393861&Signature=u4yAhb1camCABfdPir~RBkKAhMP5H9NJg1grDFFhDIp08VxJXJFpBXD8BM7sdivYwGTe-oBa4gX5cW-6ok~-R9Ey0SZ42Q07mscDiFI~cHkaXGYYO8XPJ6URZFmbYigWta~JqmjI5oOa4x~lkLsWTaJwGHrA9wxAb7wxLmagClcI~hoNfprk7tQOsBXg5uu6OJCKsR9vXFWxFBjI7VNRq1OCGZB0bx1twCzTF-kx8bxcNbLxu0iGINtWpEl1MC14CkrYkAcGC7tspEDFGzv1kDtbkaPFVPWZhNMnU0bW-tqpFZmmjGv4vu6uaHLtp4UTYv~xOaiuErBWHrQmch1d~Q__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "nopeak",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-12T08:04:20.921059Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "progress": 0
+  },
+  "2858528533164202": {
+    "task_id": "2858528533164202",
+    "image_path": "./data/input_images/1521752302428_.pic.jpg",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0712/080531-S4AJ5sOA6dnL0019?Expires=1752311131&Signature=ojanOdxtq~NEhYWk04WZX7sjFMpfSKz9OHuN2rFxxo-38GK-bV685Y2JyT6Ixx9rLIgyWFC-EpvSFa~GODI1Pftkn5NvOykGIUyGHLfRsiS7ujNFgyR00QGPQ58AyMt7PedQ1WAzhfyvr19WyqkOypufEBwX4-5t0wquRPvRRoBG-dPOrJ-19-CYeFN8GBD8zA8URNxqGPqWBVFCh21a20tyionvJVDf~dJNpZLuwLIHaky58sjv6CmD1ahhCJadP2j3vukpBkyIlNv19o2k2m1FiYnl-2CNwJREjyNAT78GfimpR95gz5uTjPXmeOp0fvBwjwQePr3eKhN6X-6p9A__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "让画面更有质感",
+    "use_off_peak": true,
+    "status": "pending",
+    "created_at": "2025-07-12T16:05:35.766611",
+    "updated_at": "2025-07-14T13:21:17.118573",
+    "api_response": {
+      "id": "2858528533164202",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]让画面更有质感",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0712/08/2858528533164202/input/prompt-01.jpeg?Expires=1752393936&Signature=KiuOtzUaCXMaZh5eRlzpe-lrx~vgaG1kapDU4QuSEHs~xUD86mXjQQjDJvSe-hP7R2Ajc6QtTH4YkwAuXzs1CaDCsGipIFRoOo4f7I6oRWBfAynuGD9ujWmUL8JW8AB38tQaMdXQQHLU29WiD-76hvXIoKyAygocrVY0g5BqUdXEIsGXgwol4XZB5M52wFS8kMeJDuXuGexVbwJBnqTI6~ZrORhz~7JAlcTk6SlF1sGhaXC7vFLVGFZ2VlVCU5rGMzisAJ5xL5VjfiXbDCqitfqScvPuh6rFn2ZNkc-EnAMyOt~wcco8Z-6YlAQ5V02DMqDNJLPTKaDTXdhb5Hlu9g__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 720,
+                "y": 1122
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0712/08/2858528533164202/input/src-img-0201.jpeg?Expires=1752393936&Signature=TA3nqb15L0lxJdax5L7ZCH5P0T11Mf84sd3VkRkTjbHHY1nGByAQljixZcYfxnvnu1mreoJ5tYfDzBmqHkz4mBYNogS07i~2E2~rown9l3~M1IJSufTCOo0N4AorP1qnXpsWKZVtKy6C17sOdR3IxrcRCLNYXapxdRWFIwKw0ylO3nfHykdQMjkXUE1zJNYL3yQ20psOHF-4MIeIqXwsN6xJ8dEqHU7clR~Dgof6BfspikDZrOcKA7t2T1kGJiPZ5gkoX9wkeMOxTSHcKv7IjQoy2~BBxyMyXIZLV0iEWw98pSpX1TXG-TyUCzXMHP16Pmu-TLdsTFxTtp0jMIiAZg__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "nopeak",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-12T08:05:35.684895Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "progress": 0
+  },
+  "2861065174874013": {
+    "task_id": "2861065174874013",
+    "image_path": "./data/input_images/1521752302428_.pic.jpg",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/030556-iakILGWIsezTheM0?Expires=1752465956&Signature=Q~vJcp7hWC5mLd0VuFtUdNOSxciiFDVekp7MmTRhchYkCwogiqBL0om8NNnbBwGoMPmI0G3H3Z2jpeQIFhDvC7ph86Bc7WIzSbGrGaqvEQg0P5QZGfuDsVrTUdzU3y~~9SuS7oZWlltQpSpqWWIYQjLCB-5dbsLmeh9bxNoVPdm~VwOZ5sNBOsIqnyXaaSEyHAK50LboiXB7muhcvHysTUehHlOj746X2kHr6H39XUISrnDjV6UpYHA66XjDhfZCNEtuGcgbKSW9spWBZnjWnlNdU4tufBN0St3dAiJ-3qnWirj5f8sTgBr1Pi-yOC7bfkajhTWE81Icbw5JSAeCqA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "让画面更有质感",
+    "use_off_peak": true,
+    "status": "pending",
+    "created_at": "2025-07-14T11:06:00.730090",
+    "updated_at": "2025-07-14T13:21:37.445368",
+    "api_response": {
+      "id": "2861065174874013",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]让画面更有质感",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/03/2861065174874013/input/prompt-01.jpeg?Expires=1752548760&Signature=qdIqOgCz3S0VfL91CEQaLYIA-C7PhZ~M3PYFtLTh6wgcnptw99lmf8h2CRBaorBhgoheHIWdXvUCgplDgCQMuKAzrRmvapg58MdETzVGx1KUMxThB1vc2E7TTHVYspqhgnAdD-GmYoDpGCWMZm7Qe2zEB~zXEalMAcH7LxeqJ7FvULiU5ZtB~TmrHft5OdaN8TSCrj8~2HUL4n1MgXXACcfe8n03KeboGn8Bc~iINa~3m3b5saRRLy5PHdRh~~TSnFNQKKaLFq7U-1MDdr0bYC9jph3FXLJmkewNn2Mh0F1QQNvWcj~W4LnY2hCNTi2ttTuAymjHlPpTIVLTEbgkMg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 720,
+                "y": 1122
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/03/2861065174874013/input/src-img-0201.jpeg?Expires=1752548760&Signature=r7ClLXOcIO3E5rVYc1GWbCMJS4mh6R9mxfod72noSC~wT3zCo7j~OOx28aEJV9cw9FVgtXfLNzMfje3pwnDs0yyNeaDMMbnXxEZbSsXovR5bg75rhVNAV-oLXOYKnXJGzWsvxfip0TCNKaNaoqDv6fcZx9BXOA2pogM5~6FgdsJ3jcZQp5TzdGLyXL81O8wF0TyG-p15R5uGagIjfzWgrcmXa9AfqexJDfhYZRr24QpDd~gCFE6GjgUaa7d8MF8OeCgEQrHPEVcjyn98EUtEWEYUNWGFOqrOJJYuRPbWA3CAwdezOxO2PROtds3iZae4zzovQ~UhBIhoDntYWdJ8cw__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "nopeak",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T03:06:00.005029Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "progress": 0
+  },
+  "2861290478188994": {
+    "task_id": "2861290478188994",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065507-LauhjdhnApk7syHJ?Expires=1752479707&Signature=jbzvRK2nstNciH0O6RtE0gpzUOJNsoAAm0gs6Ld1-Y9L3pESdolgzYKDGcRJ3PvG9dJNbXCChaTtmD-d5EWfPuRfLtscd1spxZtC15YYNPrhIbxCrRTuiqza-a-9I0n4cDg6lwnqyCFrKGPZ-9jgrjC0DGN5iQn~ynXR-Zrl5PQmSPQtMetnbBg2ljUPpTAFbVcjWEnWueSlIyduyKymCdhzse-bDGZZae9g9pHIEvPLL5hrSqe~zL808tdQKkhte~x99AB~gyi5FeOXET-S1hwLVAwkggTSy5tLiauqf4YETw8EGUymKogzh5KkivgfezjrND2OOhO52PMsYPCKKg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:55:12.429944",
+    "updated_at": "2025-07-14T14:55:12.429948",
+    "api_response": {
+      "id": "2861290478188994",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/input/prompt-01.jpeg?Expires=1752562512&Signature=OZrqrzFL8QZoiZnYTTSXNsnwtqhlyd3kN19cDiP3JBnFkbAv-Fl~Zs2Gj0Z~8~WY41H-2AqfOZyb0AthdxKzpH4Ykc-KnGjACc6~P~FDaqssQOptiqvX38UXZkC5OjcjOLpsRsR1pbsiwuLJbqXxEpvJtRk9Pz~WVQmMrTupTcfti1KQvcWPNObDztznoUrZczgcqOGHyjOGVGUIAOHutCd6nZDXfkV08XbJ43RH-kudVZ7mhksiF4vb2Ov0Cur6W6O7VSwvT7tAr5hh1q-PBEzvRrjYKf5rKeYAU~V6LulvrKCF-sRfOWGopyF0on0pl~NtSeM~OWimn5Cr-mvRag__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/input/src-img-0201.jpeg?Expires=1752562512&Signature=X-beo6oNiW-QSfDqXSTTUGpovzTKBzF8OtITgEUd-8V4rrY3hxA6zOwOvwKB7J7Rtlik3Q0a2VX04H98kpx08tWPJY~bcPITjeH94OVxrtgoD0~78Ce1SHWHyPYVYOssffDY~GJUJ1bJogBXY67pv6it5eVz95Dy~jJdmF5f27uBtjaN3~WywekFIiFNRc~r363yaCpwbaeoGsHiDQniAaSOXiB3SF4adwgRqdIxaniBjRJsKnpah8bPSPz92zDPxokH4mnCMLvw8qJWp8mNovtUSD-KfGJ1o19ipropW5lUcbBB2PaMJ4o~-fFAjaPvxs~U0uNQAg-tdCTGuEFRrw__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:55:11.439517Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861290496356802.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290478188994/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290496356802.mp4&Expires=1752563957&Signature=XcTcX-GDLleUd5Wez1BRzflkAZbYxrJ688dU1P7v8eC7I-EBkR8iWwpv1Bz0tqhdqE14vbnZ2pu8RpczqIR6g~Ex87pkacbnk8-C1Pi6l131cqKKteVPgprays2ca7xoYFnIuVOdCsM602ZEO358J8mXfOWnuxdCIoJHpO4YBb487h-zlA52oxYEo3izPllT-e-ahs-lplP45bEa7Cki8cxUfnRn1EmeWfOlpldOmC3MNjCT-j85Sm8zZo8-QrykdGLOWxi3gSra4mtY3IIOfrr33AWaOzpmOh4UQNcyoKhLl2To6VjOVlNXy3zpCsN84HpWmRRG20coQtTIVqM8sg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:21.924424",
+    "file_size": 2681880,
+    "creation_id": "2861290496356802"
+  },
+  "2861290690282678": {
+    "task_id": "2861290690282678",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (3).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065520-slEPzaraqhOYpf1f?Expires=1752479720&Signature=rrYZVUeKBUk9ZMpwJz1GvKlZiz4VP5CPGWY0NWka0GJdBQKnlSOxgSsdoEvAxeUlIQFH9To8RsdmhbAtxUuK1RCioDFpIFf0SyOXJiB9M~3Y1maLUZWMCDrUdjDsg15pKasZsZS7TcoV36k5jqo5mbhTXUH5L3Zq1FRKa-tJuXdWDOg~250qyvJcfmTJ~tn81sebEmFSk3AYwd6-C1nSR5BuqUyQCDd5MIzJ~JR17U7LaSg9EOx02ogoHtCRSGAEDu9B6CafGva-bhRa-PjdImIrWHzPNOx2nPQj7uBUFSp6KnpFUc1PPcAo58lo1Wgs~KTZYTSvFGQg-oge4I-CZg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，捕捉她眼底的惺忪与放松。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:55:25.543926",
+    "updated_at": "2025-07-14T14:55:25.543930",
+    "api_response": {
+      "id": "2861290690282678",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]逆光拍摄，女孩的轮廓被阳光勾勒出金边，伸懒腰的动作舒展自然，头发随动作轻晃，镜头从脚部向上摇至面部，捕捉她眼底的惺忪与放松。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/input/prompt-01.jpeg?Expires=1752562525&Signature=qZo~sVFlWdVDmJfEQXxfRtqgzT1hWt2n5jb5sKvRRjPLP82U80LI20XWbAqIHwiRg6lM3BP6vs8TWgb7t24f5qp885apSDUjfMVvzcShIrxdU6U2L~QvX~fpZO~jq1QnT7qfXe3WBu9n8AemY26LgLDJjRa5gIBwn7jB3mLZCUs0VQsd1ORBSfT2tEXC7GsBgpIrKSYgPWgAttYLutEvjovNIHjDnvsFLtH-3fJ6YxQkOMTq3CQ90hIoDAV9rdkbPr-1qUDGgGKoR9eDtFqzBOQyvgwRpUraC4vj0MxtmC9zceHC2HsTbNSReWUfsvmjwB1GHLMpCfDeOhPtfKt52w__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/input/src-img-0201.jpeg?Expires=1752562525&Signature=J3a8arOZ-BuJDF8y3KDkNbBCvMB08H642VXfrb7w1W89IbVRNAxSEdGQbrP9yIY8L~FC1~ymZjexyGSPCHBxrTTza8ltBiizlsCaF24K15xEPLirU-7vqYWNil-A4doWX9hj39A6qq1RqPAS8-u6UeNZwWyc8RpTYvj7XfuQyM6zP-NdBSpRupHmfWe57RphKFtFfb0VyNy06x8PWZjXxnh5KRNVsFj3NGW~rw8qg8AVPrwqEyabXG5kTP2KKZAG7TfW7anU6MINaYh12O-kYvj8AWSmuQ9OOOhChY22mqlz-84GAgeVJp1Bgh2EuEtAVhq3RgoNdv6tphjtYVHMjQ__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:55:24.375557Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861290711375806.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290690282678/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290711375806.mp4&Expires=1752563957&Signature=gsW6L5CSAERSBZhbMxjTQ-ogV2xqehxZ5UGfVKfZY94N-h-z1Je-18JztYW7u~v2LGO2R6yb5tmN3~RRqm3MRv9wnZ7Ya4wPSMc2gg5U-2E7ZGtUxNpC2YLGtW1P82B~ahOeJWG3NU9UxiNvn9sYtu63KaIQQiS7dvFOboGzwGCoP~~W01Hgli7kt-oHzc-QSNRth9a69OqDE4iSP2eb9~K0VwVgwOAmyMgjwsMBMhu1stz7JuaA4qzePvKrb4v8VLefassDGucMH~5Zw1lLuguEWATIl9D7bdzJv1JWwUJWwIdHISkrW3Za-CvOp~WUuZfig1PywjvVDm1lgelPEg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:19.874035",
+    "file_size": 2894649,
+    "creation_id": "2861290711375806"
+  },
+  "2861290894103015": {
+    "task_id": "2861290894103015",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (4).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065532-ufEWxHPwKyxfs0gE?Expires=1752479732&Signature=mINMFrZ5zGz12E6S0O4ZoFdpuN4KKa54VoV9DcFxWu4SebvLF3ZbSHKfxVmQEaz7n7~3eVKocFuKgifCl7QndOCc5lbuTralajtE~LG9jhQUqPLvuRbNsu9Js1d2n6vsx9R34r8IMj0arR5iHgf6zheX3ymtwLVyeoYSEAeWoLp~usP68ONT7H0ORheNU2sBabEaARBnIqpXNq4Iz6qSM9FQwCnpp17wB3ljIFzm8b7oCpcJYXs2Rrm6VpRE55E0KtmZaN4VyDh0nDFH7HUlk0B6HIpnuTgZ7~w9yGKcfzOppypy7Sh-ppTvOtqjhJdNVGO1~aPEnhO8ApyhcYRSUg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂的眼睫，背景音是水流声。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:55:38.004149",
+    "updated_at": "2025-07-14T14:55:38.004153",
+    "api_response": {
+      "id": "2861290894103015",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]冷色调自然光（窗景在镜子里可见），女孩动作轻柔，水珠清晰可见，镜头聚焦镜子里的倒影，偶尔切换到她低垂的眼睫，背景音是水流声。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/input/prompt-01.jpeg?Expires=1752562537&Signature=Vn5ZoaP-E4Ay3ZnuCcdgONCMfnifxZQoZT5Y0lupBQ9DxKgWjX6KLxXRnqAf46xJhMqfvjJIt-kjDHMPDimaeerDwSoIMUIYn0iiostCqdKg3dMLTVpzCNkGhPHL6nNSLnnN1ahr84lb1TGmjrwMZkCHFwR~ToLXDqm6u3LwzmIzLMGqmQ1Omk354ErOGemiAnWuiwArCKnwWB5dxohBZSO4Q7lL-eWfXxgxm2amqOLrY-Z2KllXaZNedF9PryFgUugkeZbg53P1h5Pwibm4YHhFJfmlTJYDRhNw6-VO9xBJu4Vql~s1rofW94j2yWYQFhO9vXhR7YfefxOKF8UT6Q__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/input/src-img-0201.jpeg?Expires=1752562537&Signature=tlQghK4QH4HlFWQPUrV9bjIjsi5vRFo5ifU5VAZ4b82o-FnFUA12P6Bgey1Y-hPa9rOnndDcCR7rFhJV~GcvIZVwyIp7BLWanKlhUOums-Gpl~xMbGWaeXXoGiUaYExGYnba8zwvbLSv7noFIDcAqktDgdICoEyx3-7LKax720hUhi81hHf~Dt~Je7ACjQLDhocrPO4PdRSK~KtxVnF7KWDgmto1oJsUBFZVFrjBkKlYNjGAwO9OwbkpJgtVA6bnGIAwiJqLBhiz-yE-x~a8HIakLNW~SMe~zNvnCzek5LzB2fc6Gv9~ZrSx6V9Ga5p1ODNF1cj9ElnWzx6aK84Gcw__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:55:36.814107Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861290916033795.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861290894103015/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861290916033795.mp4&Expires=1752563957&Signature=EEX7CShtC8xdllfEeV6Mu0g7KXVsOvm5xpgeqGy5JYHsmAw8buyXL8AY2Hwu-3ZBGXdX4TLILokOjpFFj6Fgat2D0b7y4XGi6~-V58-PnmCH7PgSRdD18hnmy7yvbABXwDMqMgRi6ieJk6bHXEdlbRQ1X92DMahMcl0b0PevpMBFNDkQULkIQZ-q74VNZCH9qZZQ43HaBxTFCDPLsmg9fVx5Z-rDi622CtxovVW8ViSsPeWO1QdnupdgoH~Gx8smKdt~dMxPWqYeieS8ol6g1Gq8RtKY24g01zSjYjIdIlX4909VFeAVi13UtlD7hBKgBTvBEQYSYEGTXeDEhqmqOQ__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:20.894192",
+    "file_size": 3647828,
+    "creation_id": "2861290916033795"
+  },
+  "2861291108040871": {
+    "task_id": "2861291108040871",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (5).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065544-6Q8VodYN9NHrebeP?Expires=1752479744&Signature=ZlvmIFXFAWhMB03whCJzZ4um4F293ApUpXAOa8lm-KgPh7XvuhpXs0sDqLLZr9p5nT7BZRdcn11rcVxqZr1-x7jlhwaF-Nb5a3COM71jRy0OBLagynQyaBuBm0VUdKAvPjqbzMZgFLOxaAF3umhnVeWoPmJ4pVsiP0hehFQJWa9HUfSTPDYO6a7C~Q4pKWs4wxnB1WOTtWAgO~uOnZqv0eRQdjgxFUwmsBipImDWMGv0KBSL8Uj5doMD19dwbKY8nMfdsiHv-WYzl8YFJ-qg~-3EQkr0j-In~coTrm45SE3t8axtBhnPL~pqW8VhjcPvqIvQNArkLiVZ8TXRhhumOg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细节与她的微表情。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:55:50.859260",
+    "updated_at": "2025-07-14T14:55:50.859269",
+    "api_response": {
+      "id": "2861291108040871",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]俯拍餐桌全景，阳光斜照在咖啡杯上，女孩指尖轻触手机边缘，表情平静带点犹豫，镜头缓慢旋转，捕捉食物的细节与她的微表情。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/input/prompt-01.jpeg?Expires=1752562550&Signature=F1x4UkiXMYYzCkF-~JZgbkOfxCAjJtjVYBox9Z35yCo4IWMNjaLEo7rYqWJBY1guxoi0D~eXZsO-X0AU5~lF45PacTIMEz-~2PMtZxPX16wpbcVupPnI-cE6ViwC32aznwMIkBVJ~vXAvpkhabkE3O6qx5Llg~ANrOiODZnSwMcZfmA-xV8ZqJcxQI3~oK~QVAA7LqQRBIH0Nr8g1OzjAQJm4wyPWUDLTKUxlZo1qssJ0p4s4fz8bY3d1eYAmg2Jeq693uhvlH~I954SsBRJQ~6KVK2bD4HVzMDIsZ4KVpktdlP8LkJFZ~ydDVgN1dfTQsRovS0BJbq2mEIAJ5fIcg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/input/src-img-0201.jpeg?Expires=1752562550&Signature=oX8L10Mq4sJaiYkxJoMTkEyvRzOMpuwMuIkEkBU70gsg2qvIhCF9VG4tffsHVRHJ2frBB2DmGcfPmes7sHKwIcIWKSaoP1xrAsuK2fxgyr~euzmzf4rPTe-zV0AdOf42oj2HNK7FCXVIizazhFzRwykAWnDXwkUPTfag0UtQbX29Z6H4Rv1BymAs6647SQm~rUN9lj-28~P-x6KvYkHi1cG4CEyh9O49UAvMoFJs7drpfYFOEgylcTMtskuXBrvAEHzA5SRkHcacuM6XCO1UMZgCv4atQPbx6f~yOBGKePjW-jWaOg4mDC5kpON4FgkGxs4xd4-lSKc7h1s46F82LQ__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:55:49.868894Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861291124766230.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291108040871/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291124766230.mp4&Expires=1752563957&Signature=CF84cv4g1xhN~3VOJPoABv47PGEvh8uFYtEVF33mwRkM3wjTc0sw6eh0HJFgyduOSGNeSw0sfvR2PbZ5w5vza~kNlXtDJaYsddDAgf0bFr6dXCebz4T0-8qCIIPllq8Wnz~yvzBjLZwgOHHX6P5wOlrwGKKGngAFrpq~xNffWCqGW3A5gNWhWx7PmqfTjGpF7WAC~TG3kEuedNxr1FUpEQkSxv-W2BVC4CHAkq9MIn67Q~46igTwdiU3rYqX5Sm4lkVxjcJg4AWcGDuksN0KqXqyXA42BgJnPSvgxAdIH-tT~~ON5jwiXW2XJh7Z5-oho8U92IVDs2Jaa7AzOaB3~w__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:21.458194",
+    "file_size": 3233478,
+    "creation_id": "2861291124766230"
+  },
+  "2861291346803874": {
+    "task_id": "2861291346803874",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (6).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065558-oPnx1a4qAlGFMrS5?Expires=1752479758&Signature=tigrfXrj4l-cRcsNQsI4wYn361RmDJ68YddN6RPnSV0PG-3x9uNDAwhqNLAp5sXv-B~VZ4dqdAZDTp9Q45OctdEoMTAelXfgw1z4RWWvPqNKSOAKCLh2e5YJSNN03QcmRmeQPsMK~P8rS-3oMc8L4c~Kun-OyhUoXF6y8V1ul9ilXdBM74h2CCMr0rbPj-XJwQ1NVsf5dk4yk~oFzWs8~q4JI4NtFsV4GcNEhKwrxsBrXxaayK5BUeN87FFraTw4jQal4KwcI5RQ-4B5n9i9SzQ6JS1GVW5TwFefto9VddJrS8tv0tZaSYjO6MClNEVE8ZEBfUi0-Uk82NHjRPTTRw__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是模糊的城市远景，带点生活气息。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:56:05.656398",
+    "updated_at": "2025-07-14T14:56:05.656403",
+    "api_response": {
+      "id": "2861291346803874",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]中景拍摄，微风动态感（床单、发丝飘动），女孩低头专注于浇水，嘴角微扬，镜头从盆栽移向她的侧脸，背景是模糊的城市远景，带点生活气息。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/input/prompt-01.jpeg?Expires=1752562565&Signature=tFLYZeaePhQW6yDyrHN6nwkmzQf~P0P605~Cpjq3XR-sTpYA14nA7yyXMOpwHszFTJ5tPLJZ2EsvphJSW6oJcjLOTXiwj7SY342rntG8BjirminSc4WsuxNH2y2BtNHwZKb5E7MkN0zHaaEpw8OHGmXZvGFwAHYLkyHoRytf2nDgo1jRJJwhQEx4ARt8YoDEQwwMKvWvXB~NvQFkD~RqnI9nVB4hmKdz~VMneuccM0haE1rMhdb6rfjHuGOuTQRYkjTceYOqsUvW9JIx~XDyOfPGq7vRBDbwU6NXwkBFjGzmNcfLyaFIzyqooZgEzMPtOKKrR4DL8usAZnQU4luy5w__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/input/src-img-0201.jpeg?Expires=1752562565&Signature=UzKrWIp20oMoLsyIMiBiOabkPOzSE5-XiKOpOxWbGX3MBE8pELKHWvak1NusR4o50H3-bN4-uW55iUXvgB-TuzH~IQ58FTYhv18AL9CiEr~Gbn9HNvuNKW58DuiwGDVYU1AijJ5ws5OC6kuuuJRBwuDSjvQd~OIaqp4eGhuAIienfJo5~xIwXAvRC~9JXTfSNIsEHTjAGl9-9fdG8LfUn5JhztrMma3MLyiqIgU6jf~ci28x3kAx7lqWg7beudT6N1k~7pwRP4ZXVr6KafYviw-WgVm2ho-UIkA-R-WHCPcXneYE6lEqKZlaUu9dU4sHGM0lpzzSe1xAw7mJXo9bNA__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:56:04.438718Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861291369453352.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291346803874/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861291369453352.mp4&Expires=1752563957&Signature=KkUnITlE~vLNMlqIaY~fDdyGdX1QNpZGJpAjyuH~F1PLtpoZ~Dq7Ljx3~5D9CmpUncVUk9rDT5Rg8tc9cdud2cPEKc3mKSx4AQIJfnl3eciSgT73l4wwYI3yOow-S8P-sghK9bawuwISIWIwS6HqSCq~jnwQoI8y14rdZ8-TyKopNJyoGndzziwcrY3gZFZIb1mNq-mTzIkBiiociQpuQLG9xAg79Ud-SgcoexXarfosdzfIBWcozNawXRpNtaRk6jEwaTd16LGiUm3CpHNc0uFhf-5BUnCyH2cKz2am455rlGOIn0mHice-OiyzXbnxYhzzwK9B48Fve8xjwdVjDQ__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:20.320949",
+    "file_size": 2889978,
+    "creation_id": "2861291369453352"
+  },
+  "2861291555841989": {
+    "task_id": "2861291555841989",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (7).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065612-NfZr4SSc2nQuJV94?Expires=1752479772&Signature=ee7hf-353n-rW1dsfaJPanDOSUn0E3W7JizlwQUTKUS4cbyz9fNVNSGK2Iz5psptJ4Rvo1NypMGxXo-scU78FJl0Eay5SwWXoPQ72XKJLhOw1qx~tqqma~Tk8Y8-ZlCcL8J3FDFwTunchoQPQWri9ifrZcbIu-PCrCHiaMYS~MWwYf2z2oiGepUFEzTvF-O0JyDYGnoD7OGVpuV8AfgwAb-oe6fX1Zkk8L0oVZ0Ph6pxzcV20LXnAfdrrEOkqvs-losqPPiP6qUD3GoUXUcQBeT-yEYnm~Z8zVLDwPkQ9YsN48erO~bzwnp31ET-DfywOCPveqYMQgXpDInYjK~GZw__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻书的轻响。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:56:18.386036",
+    "updated_at": "2025-07-14T14:56:18.386042",
+    "api_response": {
+      "id": "2861291555841989",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]暖光与阴影交织，女孩眼神专注，偶尔轻咬嘴唇，手指划过书页，镜头从书的封面缓缓移到她的眼睛，背景音是翻书的轻响。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/input/prompt-01.jpeg?Expires=1752562578&Signature=DmRPhNH50ZjfA42XkFvHMJWailvDDIlaBYV3CExUUyn5iUt9mIXun0RhnKN3I8qx6J9QYEo5lUrA36esd8j7FJgp-RldWDMx16ggtEstOosw1Urq5r4rwHK~q0YEtZ4viQWcGtLEj7pLTA6TxdfnKPPgA~URjPkcu-L~LDspOr4BOGFMPmDOEK-LVMJgtwVs7tO5ViZJoPRD8s~BMejUHIJZJnPZZDxOGLikJqYJhuJFoMVGtSOohAd~l3bJZtPr8tbNitebMLV8lRH2-JCKDoNUkn10jQ9kB8Z-DMdTALd5n00FYSaz4-ASDmtxo-FOhCWrKK~mTISlboh7gYxXhQ__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/input/src-img-0201.jpeg?Expires=1752562578&Signature=J0dKasHHRbNWh5MX8etFaNVjQ5tnSew3cPOo~mSHSI8Lz4tdKLy9O5gCe0Nt2UAh-y1zMc-51EE1DswHvKM~NJeki8hDjUz0GVV-okFB1EBYJUHBtxWosprBMqJAMjTUuyhC3RaKx0Hamg-oGLJLfTbRDNWGWxSCtVy6Rv-Kae4JRx1cU1hB-wECM0aLcm1Cj5xrl-UURCSFYePV8DM9r8TwUvWJaLhwjByZ0G74zAI0adEfGhyDtCKT7ZaPTlBQO5whXvyPjzposSn6kvUCk9QydjALPykNfbXpUfW9u7LUfJXUQR7VStm91CWgKnudARD~2mvU2N-ZDJblVAs85g__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "created",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:56:17.202812Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861292525625824.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291555841989/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292525625824.mp4&Expires=1752563957&Signature=AAccta1QrnTFxGF5dNNKenJIxX7TLNABmjWz~e2rvJch60MwDi8PxHuH~LlL-TNi9AP6-Hi8zuCj~6EOqnfmCuwTN~xjYOgx4qH7okRRhuyRwvt75o49wJuFYWh8d6~a1jeFCfrSHpERKv6SuKYLfNfjaysJWnEJ~Ozf-hE1nNffaD1cpwPCV7bRB3GUMNIMaKnsU2bbD438r8ChKrZnxEElLcEb6G~GikjI~bdBJa6CX579eWsQ~N9F~~kodTiPRyRPQB8G2R4ZBT2eJgOGdMDA8Xdz6KdqBj2zjrRS3ecdgbK0GJwyhs-CbBMf-L3TjbUhFj4WzNE1EN00NCJwcg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:18.304395",
+    "file_size": 2933708,
+    "creation_id": "2861292525625824"
+  },
+  "2861291784538392": {
+    "task_id": "2861291784538392",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (8).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065626-J3U53Kh6IpZDgiGg?Expires=1752479786&Signature=DqniRUjYIX5wZKRaO6pSP-8aievIeohTgPZ7FBMuAGLvaedrBQ6l~YDwQKKZWPG-oKc7DxtyZ40Buish6OBtrnMiltAf9lIlima5B1VAHm9yvz7kyqkT-sZWfk5~DdrEXB1gUVPE8gryIE-0c8R8x9gWo5Ig29mHM~WSkt34wA5dNU81dkT0oLgs2xajOwgQJWwggHyEVN5~3J2PGo9so2ay8zdAHjyouH2WvuwGo49C7vVAjCkaQ~K-6jU1rTpAySCTdCMfAzkFBDVZ3evXz-9011QzsmBym27pKYqMjaPaJE4hW~virxfUV03a813iGy-bjwLl39OwDgZ88WHG3w__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到她沾了番茄酱的指尖。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:56:32.244407",
+    "updated_at": "2025-07-14T14:56:32.244416",
+    "api_response": {
+      "id": "2861291784538392",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]厨房暖白光，蒸汽模糊镜头边缘，女孩动作熟练带点俏皮（偶尔跟着音乐晃头），镜头捕捉手部翻炒的细节，切到她沾了番茄酱的指尖。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291784538392/input/prompt-01.jpeg?Expires=1752562592&Signature=cVyxAhnNsGk-FbO0Ugu8Pl8PrD2lY3VkATILhyKfAQVjEG-WtfgqfQLjtwhnv0RH31EHfLKjX1FMpM7Qd3rDGmOYnTsmkVtQKrOQ8QHEUOeEzTHRsz2Tg1gOgD4gXsGuJcy03qa0KPLsengGemzU8YufZJMD6ewAM3fX-YPcNUu1j-5gRwFli3Mr7CPXVjJaJNpblEbD4JjvC73YdjNer4cpaWg2BqYewfs3nqGGYY8CBAxReNLlSMJLWpIocLp8WO4M~EPE8TkL6CbLOtJ6FTfClIWtGM4Hi8b~x9FTy9D4xNydLkhpqBBG0cbAwbIdfz9H3G5RgmSJPD-4qXk7VA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861291784538392/input/src-img-0201.jpeg?Expires=1752562592&Signature=P3unQ2RnUon6Abh9PSzUuLE-hNASyg2ilfKm-S4p2Gf2dzbCGpjwCc7bd9taCDRWh9BtC0bk9NSyYVqfi0oRMF1YKhkWIpEZ~1zTd3uPN7vNdXSs5teLqoGnAfDvVfmi-oQ6EXDwSEnq444g5KmgwySyDSEtzsLpim9cFN5RROWEG0X56bgaLDtO2ZS3Lz6wxkFT~2rULoc8i3dLpoXomyFwgvSq10LBIKy9Romw45KdqEJVp4T58cAMzf-q2pG2fcOvVTalDhiZL1-DW2vsi1gVn8z6orm2~yv4feZLYhNvmWpStl0finP0MawG38yItcf0TyFx30aCg8i0X4jt6A__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "created",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:56:31.189751Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861292727396243.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291784538392/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861292727396243.mp4&Expires=1752563957&Signature=RTgsx0WLAHNc7L3F9a3LJl~TymbYUwexbBaNo~xttEmDorgCRxEHiVbkV63S8upRcOlitNBbiX40xn2JJAGpPbMFupBG8qt2kfbEewu3u2SWUXO2TTthAwzZJo-2VAwpC5Rigb4-C3~I45PIN4AdmC9pyb6SYI2cf04IaGEXmib6Pr88NIS7LxfDnV2rbPBA-ufww4jsNh9CpuUIbqWxhLIV7ydGQJHD-gI6Pex9MzUugtgMa50EA~2qTSDyoraCTtrUYoVAkATetcPxCElPToTSq4Gf9kHoH3XCxFVGKPfMAMf03qVPCf3P8X9W~1mOZ5XIBNfgfdq85MM21WoNAg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:18.846325",
+    "file_size": 3249328,
+    "creation_id": "2861292727396243"
+  },
+  "2861291997401429": {
+    "task_id": "2861291997401429",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (9).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/065640-82BjBxZmovmVHelI?Expires=1752479800&Signature=NhRRfVJi4lQgm7X~67HL2uaH8yeYDU7Ui7~7zqffJDUEhcRy4oXvZbkqTpXIkpqRYYiKsPeKvmhpUa~-hpxTuIbjR7Shp9SkL3-zS4tjTo9jHo4FWgcGfWJg-61oMVRLEz1qsIkNcZ5X6eAxHdsnKbQ3UiUKmplRMuhZRT4FexoFSc-8s-GEPadYD3HRxD55Td7dzc0V5XKcwrz4oIg1uBJL2e3wcu63kT-~YwdkEXGAVhxWxITo~XOGGCNBsjmtoKJd6-~XPiUx1jSb81U3CtZffhZVvOd-B3869Q3t8hlPDRltoD6-rmLyalQoSPAWK2ZHCUagUDDQoDUkqzp7mA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头缓慢推进，营造宁静治愈感。",
+    "use_off_peak": false,
+    "status": "completed",
+    "created_at": "2025-07-14T14:56:45.385952",
+    "updated_at": "2025-07-14T14:56:45.385961",
+    "api_response": {
+      "id": "2861291997401429",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]低角度拍摄，画面偏暗（拉了一半窗帘），书遮住半张脸，只露出抿着的嘴角，猫的尾巴偶尔轻扫她的脚踝，镜头缓慢推进，营造宁静治愈感。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291997401429/input/prompt-01.jpeg?Expires=1752562605&Signature=uV~AsXyME4r9SUd4dGmUctsEUG5gCZpPHr2b51lacIt9Qq~~uAWY-boRnld6DUm3C3uqxXh0M25plQfa8qe1irnaifENtg4SnP5XgOgjfR0wPxFPPpDthcfUfG95Ll2JqXxk2CiPgAi-XkU4DZtARkZ49zofQM2R7vl9h0hIUMfuaIPJsU2JVYatYZ90vOoqc4fWBzaHZ62uM9sy-GkdiywTBqb3ElHYmrX2ZpBcn9BY5N3FOvCxWkV4015s8ntm6A21n17CeZCmX~vYm~QSctBZN4WCPtJy-rJtlTK3Kgcbh6F2B6Qq-akHpPvnu~KhgMGW2l2mKP1oqeCWonVcmg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/06/2861291997401429/input/src-img-0201.jpeg?Expires=1752562605&Signature=Uo2Dghp-PFmGttxyRtA99r9brk4813MST75ZdYaIgUTxQ97u0q6tcGcNMRaMrmiRPsheKzT51-WoblsdHnAw8HrbZngh9pZMzV32MYwFlKjyMd1boZiodPzGxKLOFYWldNtyYfxXR5pCarzEosaH~nXu1Ocuic8YXBJLci2MJ1jfm5FfrUxhXJ5JVq6nO4tWloBJYTaNZCcbuC-x3L57OzD2bSXetZ6Rd5PdRfA1Ozu32o-PY73304T0JBIZuTKsc0iMuB-R5klAWNECX4l35sYd~vmgZlZrM1QQs5jse0n4WjohOKTH2drSh-vIVeHX9iOHy~-2yAYABmXWXNrp5Q__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "created",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T06:56:44.155791Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    },
+    "video_path": "data/output_videos/vidu-video-2861293008897486.mp4",
+    "video_url": "https://files.vidu.cn/infer/tasks/25/0714/06/2861291997401429/creation-02/video.mp4?response-content-disposition=attachment;filename=vidu-video-2861293008897486.mp4&Expires=1752563957&Signature=asytTJOJvx-5ccIMDEHuaUEmGkezhOLLgdY9~BLdgzDgpCJEZzCXzi47pOdBrlogoFcQGa3QT0I7LOIdieKbltWRqTge51eeU9jXeIiqBvtxEl9r8AIImCqvlP90eT4MtPAj6mxHMYyTjikqZ8QZPTFiuTDArrEhqK5eFHiOD7VXs6M5GTVFUDqKzSXXTzlf-eSx1iEr4d84CltzClojyQlUw8YHOfze~Dtxg4NJIyNDRj-qslUwFxeCZ6zccIDFUOjy9T0383wxUPUTicpfDYK4tdYD7qDtxwqvD-LQ2nIcLVjNIU3O4kB7foF~yagoqfPjvdHgl6g2Lxj8aCexZg__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "downloaded_at": "2025-07-14T15:19:19.390459",
+    "file_size": 2887047,
+    "creation_id": "2861293008897486"
+  },
+  "2861328370158715": {
+    "task_id": "2861328370158715",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073339-ZtmWrGqBzvXNpRPN?Expires=1752482019&Signature=AVROPVLylTGR1uV1jT9ZKmPuNfML5PJ7Y~uPzMLmiyJjNRJe6ocEu7D4vO69IaYOPdWPCeiTkmc4x0QyeB9rPy5LELGrkyZB5flPhQ6otFzI9l4B-6yzxiDIeNe7eJjkBjtWbLParrUTO35vJqPscnoewdPe4gqIewTE5uRjNTgcddS6TglTVOTI9furNwHH2F5DtQrSqEj-~EZNVzfZ7Q835pnTQymfJN02dxzpFThgmoGq9W0NwfZnfx-U~VOEWejwNCUUhEUBKeX8gvITSrMN85qpznUxzuJSvFPKyEPSR3RPIeb0PNmvpiNDpJheWDYXaotFpW66JNmTM~9pqA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+    "use_off_peak": false,
+    "status": "pending",
+    "created_at": "2025-07-14T15:33:45.010332",
+    "updated_at": "2025-07-14T15:33:45.010336",
+    "api_response": {
+      "id": "2861328370158715",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/07/2861328370158715/input/prompt-01.jpeg?Expires=1752564824&Signature=h-c4~Cu8BykLlMjWEJ4Hxavj4U2RFnb~t4kNav6P9UZQwNh84ugyFgValBHQhGzxIcM~Co7I9BxEVIcqcb1zXMeGNteAy3WuXbfMUrEKio9~XNAvNZPkar5bUaCPbXfDu6h5UyG00xs5-UhHOGpy1uwLVuaFIhB3QtNvrBA-frU40EAgaJgKEOvDJCKBB9Pp8oi~h0x0AH6b6kntjMZM~wjZ4tq1jfgMgXdOaZW3FzW9wylzJIi7nb95HAhmG2Js5d9DsUxxTDz2tUaXtoMclZf5xBkLHoO-896Zl0dXcrBwiD~0NqTvgCcCUJvomv0zb5lMrWEhPUQ4Ne3I6KJa8Q__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/07/2861328370158715/input/src-img-0201.jpeg?Expires=1752564824&Signature=eozJ-~TnrBR9F8GUejDEGacEMsQwL1b5ajwYyHPL~WK22h9Vd3m8bc2jlO18sjItj70wwnx7VZ5c-N-qVLeP28nC2sBTwe-knutYNWolMpGedy1pd1e3jGG2oIJs81JiWd5shIIlOu-6DkDjH8bUawjcvnbwr4tDhAO-nXTfYTpsvWb2BEZyaywTuEJQwYJmXbAq~4nt1ON52~f1VYnT9414JzZqzRIrgo2g-PaPdyJOhGMmG2guMgZUYHixlPgFoD1RRX9D6lFuB0fAuJ1W-tMpUriCAXIa1ei5hDLsKgcmwd51SMfV0Ic66riFRCbcaWk4hO3nHpYHlEF4xJhG~g__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T07:33:44.168074Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    }
+  },
+  "2861331349376647": {
+    "task_id": "2861331349376647",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/073640-dK3UoS6CJy90c770?Expires=1752482200&Signature=ayKHxyJuztWY-CcRJdK~tLgJyOG0ZkYe9cLtvexHcew2fgiEK12C-7wEAmlMR6T0OY-oAdSaOH79ZynfM1LGmdHRh5Um3rYznbGLSR4OT8ct-Hwt8Hy-v3SerhWO7pIPLXqhUsS5CsM8I4jJzfsVxEeVXOyvgxceN9ClqYwKGGbOn~A-BFDtGsfuIH2q-YlHEPBu91OR6PbgZSFGskuaAscxInYfjMqrjovwjyD07Y9o0MCuiXIM3-Sib215kqrxwq4LYGGjLCTueIn9vnfOVMyYe-PjCjd8Yznfl0KANGqPLZPKTp1SR-QdRWDb1f44cSW~zU4ag4A6QyPw8DCBnw__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+    "use_off_peak": false,
+    "status": "pending",
+    "created_at": "2025-07-14T15:36:47.115365",
+    "updated_at": "2025-07-14T15:36:47.115387",
+    "api_response": {
+      "id": "2861331349376647",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/07/2861331349376647/input/prompt-01.jpeg?Expires=1752565007&Signature=FhBcQE2vZ0Xi~3HHgSAjV2Egya0vDQuSW~8NmWs98FVJIBhuqEje4Fue6W7WPmBBzTXwQt-MaYqZblU7pxksgHBomxIziecdwMIFKvTa9X3sOMFDHOtg1GBgrybcXKdkilZNgEahK2sUmmejD9qfDv6iYLsJwBBg5gUvD254mnGslmacPgYLUer~wJqFtLwJjSYfCVHic5FiiSmY2W2-bkHczjdxPoTAELpKVIb9D5f22xmWtMc5KofKLJZ~GE6EGSyrK02dYRAV3sAl62EQjrCIRRHht21NhG58q8vinVLj-zkLW5N9AG9fLUkQIlfqjJmwOwlDL1txeyZWvVTI3A__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/07/2861331349376647/input/src-img-0201.jpeg?Expires=1752565007&Signature=DCUc6QU~~y8LrkJ1DlWVV3QjCrYxludhGutEHJee5UQm9zLlpEMr05Yt1fAhFruVnzEN3tl1IyPFI-0pMFkLiZl7Xoi5OI68nf2diPDhcJHBGZ3K98d~h-tI~Z03VZ-kDJJ-jPFy0KeHa1rqeX~h~pmfFmUYPfHsSHHhcReCwyF1cnAxZVjJMu4p3jotw76hvDmThd5SaCqaiYjp5oYGLAlSAFqqgpF-vYcN6EGk0WZnSONe03zaEfZZaX5qROAF70P6y7tPs2wgQMgKMEhWJ49s6ys4ZwJv8U5b4ntcq9h7H9i~WkT94jLpHI2pBqEOiUDcQFaHNJXvA8dFqlk7QQ__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T07:36:46.005693Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    }
+  },
+  "2861342490508674": {
+    "task_id": "2861342490508674",
+    "image_path": "/Users/yananqi/go/src/github.com/alexfaker/autoGenVideo/data/input_images/制作女孩独居生活视频 (2).png",
+    "image_url": "https://put.vidu.cn/tmp/vidu/2857485261099210/25/0714/074801-FI2PMXgjA2B4WURX?Expires=1752482881&Signature=dey3stM7M1gw-bqUn2cLqbiWPtHb1TmLjrNfYV4tzTH3-1kfANunHArGQZGrytdurq4XzoJeAL3b4gEVtsxxPG7IdfBIQ4ujxTGDEpYLS0vxAOzwI3ZP5RDLOu7UIybcwxP70SDqsV8rMVnrgF-zzraRzl--3FdOK0ITs1tXlKDeJ3xBoTjU7b-PEm5GALId~aHp5ycplLOK65z~61l7uXMpJ-Q-U5TyFpxZSCwWGd9lUjNyuxmzpDw6Vv6ctgsdoGCt~Mjhuig5hkoEL834OGIX60flHhk2WSwuG8OVQvsv5IjjpkEBma5XxbjaJsOjJSvQ6hdBxZm0rs6QJvH9sA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+    "prompt": "清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+    "use_off_peak": false,
+    "status": "pending",
+    "created_at": "2025-07-14T15:48:06.849888",
+    "updated_at": "2025-07-14T15:48:06.849904",
+    "api_response": {
+      "id": "2861342490508674",
+      "input": {
+        "creation_id": "0",
+        "prompts": [
+          {
+            "type": "text",
+            "content": "[@图1]清晨卧室，暖黄色柔光，女孩半睡半醒，睫毛在阳光下泛着细闪，纱帘飘动，镜头从床头柜的绿植缓缓移向女孩的脸，营造慵懒朦胧感，背景音是轻微的鸟鸣。",
+            "negative": false,
+            "recaption": "",
+            "selected_region": null,
+            "src_img": "",
+            "src_imgs": [],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": ""
+          },
+          {
+            "type": "image",
+            "content": "https://files.vidu.cn/infer/tasks/25/0714/07/2861342490508674/input/prompt-01.jpeg?Expires=1752565686&Signature=NJ5NE3qrsasAoJRIdNq1PSlhKi93YcTvtwkuOAi5sMb8HOIN4XQ7mDp~P1-kJ92vB4us6YmfIqNhfAeYv4UlUBFXcP7HeQT4fa0E2nYEOYJgJQW~4NMAiKyuL3HGEoTV9TuMcno1oQrO42648arz1BQFQlJSuVU93UD~Sc6TK9TZW~0txgxyb8dNIeJQ--KU127EDRAaJNxOmddLFCU0KPs9Vbp-tKn1eu1She7am77YneLN~H0j1ebAV5cPjTDx2pb15nql960N5vCcSJTn8M4OtU6DLT4IlReQGCXggeUvdQ9HYEBKyGzYe5twsjvU6d8pwRz8vZxt~Ur2rVHqQA__&Key-Pair-Id=K3DNVHKWMZJUTO",
+            "negative": false,
+            "recaption": "",
+            "selected_region": {
+              "top_left": {
+                "x": 0,
+                "y": 0
+              },
+              "bottom_right": {
+                "x": 864,
+                "y": 1536
+              }
+            },
+            "src_img": "",
+            "src_imgs": [
+              "https://files.vidu.cn/infer/tasks/25/0714/07/2861342490508674/input/src-img-0201.jpeg?Expires=1752565686&Signature=cEE2S-4eYMgPVLZ0IpGrylvmArv6guIjoX~P4nr0l0YTV17N8vt4Ds2Qkw2Qac8u2fHdzjFeOvjxiUVUEAeDsYTv8jSstvUJ6PCq3TrS~VRy2I7EtG5q9nx4fq96LEJxVv1aoIQduW5B~oX~MAClUUBpAVgwMPNn6P6fMGqNbxL4qgnrvAks9lrKnJJTl0itQuDeWQOvjWRpOOML8keb3By1tjcSFkTSqdM-zu0RMtmmEr4FrscyQHZtlSXcrAW0uVHKq~e95gVfVchcDHy-sImhLfUlywKkQlTSNmkElsMIk0ugIVvoeJue4u~4zwzJOKIrGo4wfaj~ygd13qwJNw__&Key-Pair-Id=K3DNVHKWMZJUTO"
+            ],
+            "preset": false,
+            "src_content": "",
+            "line_art_pos": "unspecified",
+            "name": "图1"
+          }
+        ],
+        "lang": "zh",
+        "enhance": true,
+        "skip_moderation": false,
+        "seed": "0",
+        "multi_image_boost": false,
+        "lora": null,
+        "invisible_watermark": null,
+        "editor_mode": "normal"
+      },
+      "settings": {
+        "style": "general",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "model": "vidu",
+        "model_version": "3.0",
+        "resolution": "1080p",
+        "movement_amplitude": "auto",
+        "schedule_mode": "normal",
+        "sample_count": 1,
+        "use_trial": false,
+        "is_locked": false,
+        "transition": "unspecified"
+      },
+      "type": "character2video",
+      "state": "preparation",
+      "creations": [],
+      "err_code": "",
+      "scene": "",
+      "created_at": "2025-07-14T07:48:06.005508Z",
+      "origin_task_type": "character2video",
+      "extra_params": null
+    }
+  }
+}
